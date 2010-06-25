@@ -7,6 +7,8 @@ T 66600 50200 5 10 1 1 0 0 1
 refdes=Q?
 T 64200 49900 5 10 1 1 0 0 1
 value=sr-fet-RTQ020N03
+T 65900 49600 5 10 0 0 0 0 1
+footprint=SOT26
 }
 N 61600 49600 62800 49600 4
 {
@@ -22,6 +24,8 @@ T 68200 50200 5 10 1 1 0 0 1
 refdes=Q?
 T 64200 49700 5 10 1 1 0 0 1
 value=sr-fet-RTQ020N03
+T 67500 49600 5 10 0 0 0 0 1
+footprint=SOT26
 }
 N 65900 49800 65900 49500 4
 N 67500 49800 67500 49500 4
@@ -163,15 +167,6 @@ N 51500 51400 52000 51400 4
 T 51500 51400 5 10 1 1 0 0 1
 netname=RESET
 }
-C 53100 45700 1 270 0 leddual-3.sym
-{
-T 55000 45600 5 10 0 0 270 0 1
-device=LED
-T 53600 44600 5 10 1 1 0 0 1
-refdes=LED?
-T 52700 44500 5 10 1 1 180 0 1
-value=sr-led-red-plcc2 
-}
 C 57200 41900 1 90 0 resistor-2.sym
 {
 T 56850 42300 5 10 0 0 90 0 1
@@ -200,19 +195,6 @@ N 67300 56700 67300 56100 4
 {
 T 67300 56500 5 10 1 1 0 0 1
 netname=12VCC
-}
-C 56900 41900 1 270 0 leddual-3.sym
-{
-T 58800 41800 5 10 0 0 270 0 1
-device=LED
-T 57300 40700 5 10 1 1 0 0 1
-refdes=LED?
-T 58400 41800 5 10 0 0 270 0 1
-footprint=dual_led
-T 57300 41700 5 10 1 1 0 0 1
-value=sr-led-green-plcc2 
-T 56300 43600 5 10 1 1 0 0 1
-description=5V Power LED
 }
 N 60700 56400 60500 56400 4
 N 56300 42800 57100 42800 4
@@ -631,33 +613,6 @@ T 65000 47700 5 10 1 1 0 0 1
 netname=RECOUT
 }
 C 64900 46600 1 270 0 gnd-1.sym
-C 53100 44800 1 270 0 leddual-3.sym
-{
-T 55000 44700 5 10 0 0 270 0 1
-device=LED
-T 53600 43600 5 10 1 1 0 0 1
-refdes=LED?
-T 52700 44700 5 10 1 1 180 0 1
-value=sr-led-red-plcc2 
-}
-C 53100 43000 1 270 0 leddual-3.sym
-{
-T 55000 42900 5 10 0 0 270 0 1
-device=LED
-T 53600 41900 5 10 1 1 0 0 1
-refdes=LED?
-T 52700 44100 5 10 1 1 180 0 1
-value=sr-led-red-plcc2 
-}
-C 53100 43900 1 270 0 leddual-3.sym
-{
-T 55000 43800 5 10 0 0 270 0 1
-device=LED
-T 53600 42800 5 10 1 1 0 0 1
-refdes=LED?
-T 52700 44300 5 10 1 1 180 0 1
-value=sr-led-red-plcc2 
-}
 N 53300 47500 53300 47800 4
 {
 T 53300 47600 5 10 1 1 0 0 1
@@ -698,6 +653,8 @@ T 53400 41500 5 10 1 1 0 0 1
 refdes=Q?
 T 51100 41600 5 10 1 1 0 0 1
 value=sr-fet-RTQ020N03
+T 52800 41300 5 10 0 0 0 0 1
+footprint=SOT26
 }
 C 66200 51700 1 270 0 led-1.sym
 {
@@ -775,5 +732,70 @@ symversion=0.1
 T 64800 52800 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 67800 54100 5 10 0 1 0 0 1
+footprint=PLCC2
+}
+C 56900 41900 1 270 0 led-1.sym
+{
+T 57500 41100 5 10 0 0 270 0 1
+device=LED
+T 57300 41100 5 10 1 1 270 0 1
+refdes=LED?
+T 57700 41100 5 10 0 0 270 0 1
+symversion=0.1
+T 57700 41600 5 10 1 1 0 0 1
+value=sr-led-green-plcc2
+T 56900 41900 5 10 0 1 0 0 1
+footprint=PLCC2
+}
+C 53100 45700 1 270 0 led-1.sym
+{
+T 53700 44900 5 10 0 0 270 0 1
+device=LED
+T 53500 44900 5 10 1 1 270 0 1
+refdes=LED?
+T 53900 44900 5 10 0 0 270 0 1
+symversion=0.1
+T 53900 44700 5 10 1 1 0 0 1
+value=sr-led-red-plcc2
+T 53100 45700 5 10 0 1 0 0 1
+footprint=PLCC2
+}
+C 53100 44800 1 270 0 led-1.sym
+{
+T 53700 44000 5 10 0 0 270 0 1
+device=LED
+T 53500 44000 5 10 1 1 270 0 1
+refdes=LED?
+T 53900 44000 5 10 0 0 270 0 1
+symversion=0.1
+T 53900 44500 5 10 1 1 0 0 1
+value=sr-led-red-plcc2
+T 53100 44800 5 10 0 1 0 0 1
+footprint=PLCC2
+}
+C 53100 43900 1 270 0 led-1.sym
+{
+T 53700 43100 5 10 0 0 270 0 1
+device=LED
+T 53500 43100 5 10 1 1 270 0 1
+refdes=LED?
+T 53900 43100 5 10 0 0 270 0 1
+symversion=0.1
+T 53900 44300 5 10 1 1 0 0 1
+value=sr-led-red-plcc2
+T 53100 43900 5 10 0 1 0 0 1
+footprint=PLCC2
+}
+C 53100 43000 1 270 0 led-1.sym
+{
+T 53700 42200 5 10 0 0 270 0 1
+device=LED
+T 53500 42200 5 10 1 1 270 0 1
+refdes=LED?
+T 53900 42200 5 10 0 0 270 0 1
+symversion=0.1
+T 53900 44100 5 10 1 1 0 0 1
+value=sr-led-red-plcc2
+T 53100 43000 5 10 0 1 0 0 1
 footprint=PLCC2
 }
