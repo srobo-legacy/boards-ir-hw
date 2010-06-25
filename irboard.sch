@@ -612,3 +612,10 @@ symversion=0.1
 T 72000 48500 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 }
+C 52600 54900 1 0 0 interconnect.sym
+{
+T 53800 57620 5 10 1 1 0 0 1
+refdes=S?
+T 52700 58395 5 10 0 0 0 0 1
+device=none
+}
