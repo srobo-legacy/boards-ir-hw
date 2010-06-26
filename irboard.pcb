@@ -10,6 +10,26 @@ DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
+
+	
+	
+	
+	
+	
+	
+Element(0x00 "RCY200P" "C?" "sr-c-1m" 400 0 0 100 0x00)
+(
+	Pin(100 200 60 30 "1" 0x101)
+	Pin(300 200 60 30 "2" 0x01)
+	ElementArc(200 200 200 200 0 360 10)
+
+	ElementLine(-60 200            -20 200 10)
+	ElementLine(-40 180 -40 220 10)
+	ElementLine(420 200 460  200 10)
+	
+
+	Mark (100 200)
+)
                              # 78 for SOT23
 	                             # 82 for SOT23
 	      # 41 for SOT23
@@ -858,56 +878,6 @@ Element[0x00000000 "0603" "S?/R7" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
 #	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
 
 )
-
-Element["" "8P8C" "S?/S/J2" "sr-cn-8p8c" 50000 50000 -5000 0 0 100 ""]
-(
-	Pin[10000 35000 6000 2000 7000 3500 "" "8" "edge2"]
-	Pin[    0 30000 6000 2000 7000 3500 "" "7" "edge2"]
-	Pin[10000 15000 6000 2000 7000 3500 "" "4" "edge2"]
-	Pin[    0 10000 6000 2000 7000 3500 "" "3" "edge2"]
-	Pin[    0 20000 6000 2000 7000 3500 "" "5" "edge2"]
-	Pin[    0     0 6000 2000 7000 3500 "" "1" "square,edge2"]
-	Pin[10000  5000 6000 2000 7000 3500 "" "2" "edge2"]
-	Pin[10000 25000 6000 2000 7000 3500 "" "6" "edge2"]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	ElementLine [-39775 49500 15000 49500 1000]
-	ElementLine [15000 49500 15000 -14500 1000]
-	ElementLine [-39775 -14500 15000 -14500 1000]
-	)
-
-Element["" "8P8C" "S?/S/J1" "sr-cn-8p8c" 50000 50000 -5000 0 0 100 ""]
-(
-	Pin[10000 35000 6000 2000 7000 3500 "" "8" "edge2"]
-	Pin[    0 30000 6000 2000 7000 3500 "" "7" "edge2"]
-	Pin[10000 15000 6000 2000 7000 3500 "" "4" "edge2"]
-	Pin[    0 10000 6000 2000 7000 3500 "" "3" "edge2"]
-	Pin[    0 20000 6000 2000 7000 3500 "" "5" "edge2"]
-	Pin[    0     0 6000 2000 7000 3500 "" "1" "square,edge2"]
-	Pin[10000  5000 6000 2000 7000 3500 "" "2" "edge2"]
-	Pin[10000 25000 6000 2000 7000 3500 "" "6" "edge2"]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	ElementLine [-39775 49500 15000 49500 1000]
-	ElementLine [15000 49500 15000 -14500 1000]
-	ElementLine [-39775 -14500 15000 -14500 1000]
-	)
-Element["" "dual_led" "S?/LED1" "sr-led-redgreen" 10343 5800 -2000 -6000 0 100 ""]
-(
-	Pad[-7874 -2756 -5906 -2756 3937 1000 4537 "1" "1" "square"]
-	Pad[-7874  2756 -5906  2756 3937 1000 4537 "3" "3" "square"]
-	Pad[ 5906  2756  7874  2756 3937 1000 4537 "4" "4" "square"]
-	Pad[ 5906 -2756  7874 -2756 3937 1000 4537 "2" "2" "square"]
-
-	ElementLine [-6300 -5300 -6300  5300 1000] # Left
-	ElementLine [-6300  5300  6300  5300 1000] # Bottom
-	ElementLine [ 6300  5300  6300 -5300 1000] # Right
-	ElementLine [ 6300 -5300 -6300 -5300 1000] # Top
-
-	ElementLine [0 -5300 0 5300 1000]
-	ElementLine [0 0 3000 0 1000]
-
-)
 # grab the input values and convert to 1/100 mil
        
 	
@@ -1486,33 +1456,70 @@ Element[0x00000000 "0603" "S?/C3" "sr-c-470n" 0 0 -3150 -3150 0 100 ""]
 #	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
 
 )
-Element(0x00 "SOT262" "S?/U4" "sr-ic-pic10f200" 138 0 3 100 0x00)
+
+	
+Element(0x00 "HEADER6_2" "CONN?" "sr-con-826925" 260 0 3 100 0x00)
 (
-	ElementLine(0 0 0 54 10)
-	ElementArc(0 69 15 15 -90 -180 10)
-	ElementLine(0 85 0 139 10)
-	ElementLine(0 139 118 139 10)
-	ElementLine(118 139 118 0 10)
-	ElementLine(118 0 0 0 10)
-	Pad(20 102
-	       20 118
-			   24 "1" "1" 0x100)
-	Pad(59 102
-	       59 118
-			   24 "2" "2" 0x100)
-	Pad(98 102
-	    98 118
-			   24 "3" "3" 0x100)
-	Pad(98 20
-	       98 36
-			   24 "4" "4" 0x100)
-	Pad(59 20
-	       59 36
-			   24 "5" "5" 0x100)
-	Pad(20 20
-	       20 36
-			   24 "6" "6" 0x100)
-	Mark(20 110)
+	Pin(50 50 60 38 "1" 0x101)
+	Pin(150 50 60 38 "2" 0x01)
+	 Pin(50 150 60 38 "3" 0x01)
+	Pin(150 150 60 38 "4" 0x01)
+	 Pin(50 250 60 38 "5" 0x01)
+	Pin(150 250 60 38 "6" 0x01)
+	 
+	ElementLine(0 0 0 300 10)
+	ElementLine(0 300 200 300 10)
+	ElementLine(200 300 200 0 10)
+	ElementLine(200 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
+)
+# grab the input values and convert to 1/100 mil
+       
+	
+	
+	
+	
+	
+	
+	# how much to grow the pads by for soldermask [1/100 mil]
+	
+	# clearance from planes [1/100 mil]
+	
+	# silk screen width  [1/100 mil]
+	
+	# courtyard silk screen width  [1/100 mil]
+	
+# element_flags, description, pcb-name, value, mark_x, mark_y,
+# text_x, text_y, text_direction, text_scale, text_flags
+Element[0x00000000 "1206" "R?" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+(
+# 
+# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
+	Pad[-5905 -1181
+		-5905 1181
+		5118 2000 5718 "1" "1" "square"]
+	    Pad[5905 -1181
+		5905 1181
+		5118 2000 5718 "2" "2" "square"]
+	 
+
+	ElementLine[-2362 -3740 2362 -3740 800]
+	    ElementLine[-2362 3740 2362 3740 800]
+	   
+
+#
+# This draws a 1 mil placement courtyard outline in silk.  It should probably
+# not be included since you wont want to try and fab a 1 mil silk line.  Then
+# again, it is most useful during parts placement.  It really is time for some
+# additional non-fab layers...
+
+#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
+#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
+#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
+#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
+
 )
 
         
@@ -1727,6 +1734,69 @@ Element[0x00000000 "TQFP32_7" "U?" "unknown" 0 0 -2000 -6000 0 100 0x00000000]
 
 	ElementArc[-10479 -10479 1000 1000 0 360 800]
 
+)
+                             # 78 for SOT23
+	                             # 82 for SOT23
+	      # 41 for SOT23
+	               # 34 for SOT23, 24 for SOT25
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+Element(0x00 "SOT26" "Q?" "sr-fet-RTQ020N03" 138 0 3 100 0x00)
+(
+	ElementLine(0 0 0 139 10)
+	ElementLine(0 139 118 139 10)
+	ElementLine(118 139 118 0 10)
+	ElementLine(118 0 0 0 10)
+
+	# 1st side, 1st pin
+	Pad(20 102
+	       20 118
+			   24 "1" "1" 0x100)
+	 
+	
+
+	# 1st side, 2nd pin
+	Pad(59 102
+	       59 118
+			   24 "2" "2" 0x100)
+	   
+	 
+
+	# 1st side, 3rd pin
+	Pad(98 102
+	    98 118
+			   24 "3" "3" 0x100)
+	
+
+	# 2nd side, 3rd pin
+	Pad(98 20
+	       98 36
+			   24 "4" "4" 0x100)
+	   
+	 
+
+	# 2nd side, 2nd pin
+	Pad(59 20
+	       59 36
+			   24 "5" "5" 0x100)
+	   
+	 
+
+	# 2nd side, 1st pin
+	Pad(20 20
+	       20 36
+			   24 "6" "6" 0x100)
+	 
+
+	Mark(20 110)
 )
 Layer(1 "component")
 (
