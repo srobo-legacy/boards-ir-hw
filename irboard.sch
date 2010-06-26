@@ -38,6 +38,8 @@ T 56000 53800 5 10 0 0 0 0 1
 device=ATMega48
 T 56000 54000 5 10 0 0 0 0 1
 footprint=TQFP32_7
+T 55700 47000 5 10 0 0 0 0 1
+footprint=TQFP32_7
 }
 C 66500 54200 1 90 0 resistor-2.sym
 {
@@ -150,7 +152,9 @@ refdes=CONN?
 T 49900 53300 5 10 1 1 0 0 1
 description=Programming Header
 T 49900 53100 5 10 1 1 0 0 1
-value=sr-con-826925-3
+value=sr-con-826925
+T 49800 50900 5 10 0 0 0 0 1
+footprint=HEADER6_2
 }
 N 51500 52300 52000 52300 4
 {
