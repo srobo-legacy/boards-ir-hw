@@ -336,6 +336,8 @@ T 67600 43400 5 10 1 1 270 4 1
 device=IR_RECV
 T 66917 42860 5 10 1 1 0 2 1
 refdes=U?
+T 66600 42700 5 10 0 0 0 0 1
+footprint=sr_rx
 }
 C 49800 54500 1 0 0 interconnect.sym
 {
@@ -519,6 +521,8 @@ T 67600 45400 5 10 1 1 270 4 1
 device=IR_RECV
 T 66917 44860 5 10 1 1 0 2 1
 refdes=U?
+T 66600 44700 5 10 0 0 0 0 1
+footprint=sr_rx
 }
 C 65300 45300 1 0 0 resistor-2.sym
 {
@@ -566,6 +570,8 @@ T 67017 46860 5 10 1 1 0 2 1
 refdes=U?
 T 65700 48200 5 10 1 1 0 0 1
 description=IR Receivers
+T 66700 46700 5 10 0 0 0 0 1
+footprint=sr_rx
 }
 C 65400 47300 1 0 0 resistor-2.sym
 {
