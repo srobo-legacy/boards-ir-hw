@@ -337,7 +337,7 @@ device=IR_RECV
 T 66917 42860 5 10 1 1 0 2 1
 refdes=U?
 T 66600 42700 5 10 0 0 0 0 1
-footprint=sr_rx
+footprint=sr_rx.fp
 }
 C 49800 54500 1 0 0 interconnect.sym
 {
