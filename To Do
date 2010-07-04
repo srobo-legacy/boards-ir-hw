@@ -1,3 +1,4 @@
 change FET symbol so that it can be seen which way round to put it
 button name + footprint
 give IR LEDs the right footprint
+1737202 = 555
