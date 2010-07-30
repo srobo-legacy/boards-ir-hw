@@ -38,8 +38,6 @@ T 56000 53800 5 10 0 0 0 0 1
 device=ATMega48
 T 56000 54000 5 10 0 0 0 0 1
 footprint=TQFP32_7
-T 55700 47000 5 10 0 0 0 0 1
-footprint=TQFP32_7
 }
 C 74700 54200 1 90 0 resistor-2.sym
 {
@@ -324,7 +322,7 @@ refdes=CONN2
 T 50200 49250 5 10 0 0 180 0 1
 device=CONNECTOR_1
 T 50200 49050 5 10 0 0 180 0 1
-footprint=SIP1N
+footprint=SIP1
 T 48000 48700 5 10 1 1 0 0 1
 value=sr-con-2211S03G
 T 47100 49000 5 10 1 1 0 0 1
@@ -353,7 +351,7 @@ refdes=CONN3
 T 50200 48150 5 10 0 0 180 0 1
 device=CONNECTOR_1
 T 50200 47950 5 10 0 0 180 0 1
-footprint=SIP1N
+footprint=SIP1
 T 48000 48500 5 10 1 1 0 0 1
 value=sr-con-2211S03G
 }
@@ -364,7 +362,7 @@ refdes=CONN4
 T 50200 47050 5 10 0 0 180 0 1
 device=CONNECTOR_1
 T 50200 46850 5 10 0 0 180 0 1
-footprint=SIP1N
+footprint=SIP1
 T 48000 48300 5 10 1 1 0 0 1
 value=sr-con-2211S03G
 }
@@ -375,7 +373,7 @@ refdes=CONN5
 T 50200 45950 5 10 0 0 180 0 1
 device=CONNECTOR_1
 T 50200 45750 5 10 0 0 180 0 1
-footprint=SIP1N
+footprint=SIP1
 T 48000 48100 5 10 1 1 0 0 1
 value=sr-con-2211S03G
 }
@@ -665,7 +663,7 @@ symversion=0.1
 T 73000 52200 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 74400 51700 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 74400 53000 1 270 0 led-1.sym
 {
@@ -678,7 +676,7 @@ symversion=0.1
 T 73000 52600 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 74400 53000 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 76000 53000 1 270 0 led-1.sym
 {
@@ -691,7 +689,7 @@ symversion=0.1
 T 73000 52400 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 76000 53000 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 76000 51700 1 270 0 led-1.sym
 {
@@ -704,7 +702,7 @@ symversion=0.1
 T 73000 52000 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 76000 51700 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 74400 54100 1 270 0 led-1.sym
 {
@@ -717,7 +715,7 @@ symversion=0.1
 T 73000 53000 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 74400 54100 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 76000 54100 1 270 0 led-1.sym
 {
@@ -730,7 +728,7 @@ symversion=0.1
 T 73000 52800 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 76000 54100 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 56900 41900 1 270 0 led-1.sym
 {
@@ -754,7 +752,9 @@ refdes=LED10
 T 53900 44900 5 10 0 0 270 0 1
 symversion=0.1
 T 53900 45200 5 10 1 1 0 0 1
-value=sr-led-KPA
+value=sr-led-red-KPA
+T 53100 45700 5 10 0 0 0 0 1
+footprint=KPA
 }
 C 53600 49000 1 0 0 switch-pushbutton-no-1.sym
 {
@@ -762,6 +762,8 @@ T 54000 49300 5 10 1 1 0 0 1
 refdes=S2
 T 54000 49600 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
+T 53600 49000 5 10 0 0 0 0 1
+footprint=SW
 }
 N 54600 49000 55700 49000 4
 C 53300 49100 1 270 0 gnd-1.sym
@@ -787,7 +789,9 @@ refdes=LED11
 T 53900 44000 5 10 0 0 270 0 1
 symversion=0.1
 T 53900 44300 5 10 1 1 0 0 1
-value=sr-led-KPA
+value=sr-led-red-KPA
+T 53100 44800 5 10 0 0 0 0 1
+footprint=KPA
 }
 C 53100 43900 1 270 0 led-1.sym
 {
@@ -798,7 +802,9 @@ refdes=LED12
 T 53900 43100 5 10 0 0 270 0 1
 symversion=0.1
 T 53900 43300 5 10 1 1 0 0 1
-value=sr-led-KPA
+value=sr-led-red-KPA
+T 53100 43900 5 10 0 0 0 0 1
+footprint=KPA
 }
 C 53100 43000 1 270 0 led-1.sym
 {
@@ -809,7 +815,9 @@ refdes=LED13
 T 53900 42200 5 10 0 0 270 0 1
 symversion=0.1
 T 53800 42600 5 10 1 1 0 0 1
-value=sr-led-KPA
+value=sr-led-red-KPA
+T 53100 43000 5 10 0 0 0 0 1
+footprint=KPA
 }
 C 65800 51200 1 0 0 lm555-1.sym
 {
@@ -902,7 +910,7 @@ refdes=D1
 T 71000 53400 5 10 1 1 0 0 1
 value=sr-d-ll4448
 T 70700 53600 5 10 0 0 0 0 1
-footprint=sod80
+footprint=SOD80
 }
 C 70000 51300 1 90 0 capacitor-1.sym
 {
@@ -994,7 +1002,7 @@ symversion=0.1
 T 73000 51600 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 78100 53000 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 78100 51700 1 270 0 led-1.sym
 {
@@ -1007,7 +1015,7 @@ symversion=0.1
 T 73000 51400 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 78100 51700 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 C 78100 54100 1 270 0 led-1.sym
 {
@@ -1020,6 +1028,6 @@ symversion=0.1
 T 73000 51800 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 T 78100 54100 5 10 0 1 0 0 1
-footprint=PLCC2
+footprint=LED5
 }
 N 78800 56100 78800 55100 4
