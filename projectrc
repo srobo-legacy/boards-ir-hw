@@ -1,0 +1,3 @@
+schematics irboard.sch
+output-name irboard
+elements-dir ./components/pkg
