@@ -178,7 +178,7 @@ refdes=R22
 T 57400 42600 5 10 1 1 0 0 1
 value=sr-r-100
 T 57200 41900 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 60700 57200 1 270 0 linear-reg-1.sym
 {
@@ -293,7 +293,7 @@ refdes=R16
 T 60900 49400 5 10 1 1 0 0 1
 value=sr-r-1k
 T 60700 49200 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 50500 48600 51000 48600 4
 {
@@ -484,7 +484,7 @@ refdes=R21
 T 64800 43100 5 10 1 1 0 0 1
 value=sr-r-100
 T 65300 43300 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 66400 42500 1 90 0 capacitor-1.sym
 {
@@ -531,7 +531,7 @@ refdes=R20
 T 64800 45100 5 10 1 1 0 0 1
 value=sr-r-100
 T 65300 45300 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 66400 44500 1 90 0 capacitor-1.sym
 {
@@ -580,7 +580,7 @@ refdes=R17
 T 64900 47100 5 10 1 1 0 0 1
 value=sr-r-100
 T 65400 47300 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 66500 46500 1 90 0 capacitor-1.sym
 {
@@ -628,7 +628,7 @@ refdes=R19
 T 53400 46100 5 10 1 1 0 0 1
 value=sr-r-100
 T 53400 45700 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 53400 46600 1 90 0 resistor-2.sym
 {
@@ -639,7 +639,7 @@ refdes=R18
 T 53400 47000 5 10 1 1 0 0 1
 value=sr-r-100
 T 53400 46600 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 52800 41300 1 0 0 nmos-3.sym
 {
@@ -776,7 +776,7 @@ refdes=R14
 T 65000 53900 5 10 1 1 180 0 1
 value=sr-r-10k
 T 65300 53300 5 10 0 0 90 0 1
-footprint=0603
+footprint=sr_0603
 T 65000 54100 5 10 1 1 180 0 1
 description=Pull Down Resistor
 }
@@ -846,7 +846,7 @@ refdes=R15
 T 69900 52700 5 10 1 1 0 0 1
 description=Rb
 T 69900 52700 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 T 70000 53200 5 10 1 1 0 0 1
 value=sr-r-560
 }
@@ -859,7 +859,7 @@ refdes=R13
 T 69900 53600 5 10 1 1 0 0 1
 description=Ra
 T 69900 53600 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 T 70000 54100 5 10 1 1 0 0 1
 value=sr-r-2k4
 }
@@ -882,7 +882,7 @@ symversion=0.1
 T 68800 51900 5 10 1 1 0 0 1
 value=sr-c-10n
 T 68900 51300 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 68100 52300 68700 52300 4
 N 68700 52300 68700 52200 4
@@ -923,7 +923,7 @@ symversion=0.1
 T 69900 51900 5 10 1 1 0 0 1
 value=sr-c-10n
 T 70000 51300 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 65800 52700 65800 54300 4
 N 65800 54300 69000 54300 4
@@ -1031,3 +1031,12 @@ T 78100 54100 5 10 0 1 0 0 1
 footprint=LED5
 }
 N 78800 56100 78800 55100 4
+C 53300 50800 1 0 0 led-1.sym
+{
+T 54100 51400 5 10 0 0 0 0 1
+device=LED
+T 54100 51200 5 10 1 1 0 0 1
+refdes=LED?
+T 54100 51600 5 10 0 0 0 0 1
+symversion=0.1
+}
