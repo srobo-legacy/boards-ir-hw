@@ -1,8 +1,14 @@
-# release: pcb 1.99x
+# release: pcb 20091103
+# date:    Mon Aug  2 21:22:42 2010
+# user:    alex (Alex Forward,,,)
+# host:    alex-laptop
+
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
+
 PCB["" 600000 500000]
-Grid[10000.000000 0 0 0]
+
+Grid[1968.503906 0 0 1]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -11,3760 +17,2082 @@ Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s:3:4:5:6:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
-	
-Element(0x00 "LED5" "LED3" "sr-ic-tsop2236" 100 70 0 100 0x00)
+Symbol(' ' 18)
 (
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
+)
+Symbol('!' 12)
+(
+	SymbolLine(0 45 0 50 8)
+	SymbolLine(0 10 0 35 8)
+)
+Symbol('"' 12)
+(
+	SymbolLine(0 10 0 20 8)
+	SymbolLine(10 10 10 20 8)
+)
+Symbol('#' 12)
+(
+	SymbolLine(0 35 20 35 8)
+	SymbolLine(0 25 20 25 8)
+	SymbolLine(15 20 15 40 8)
+	SymbolLine(5 20 5 40 8)
+)
+Symbol('$' 12)
+(
+	SymbolLine(15 15 20 20 8)
+	SymbolLine(5 15 15 15 8)
+	SymbolLine(0 20 5 15 8)
+	SymbolLine(0 20 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 40 8)
+	SymbolLine(15 45 20 40 8)
+	SymbolLine(5 45 15 45 8)
+	SymbolLine(0 40 5 45 8)
+	SymbolLine(10 10 10 50 8)
+)
+Symbol('%' 12)
+(
+	SymbolLine(0 15 0 20 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 10 10 8)
+	SymbolLine(10 10 15 15 8)
+	SymbolLine(15 15 15 20 8)
+	SymbolLine(10 25 15 20 8)
+	SymbolLine(5 25 10 25 8)
+	SymbolLine(0 20 5 25 8)
+	SymbolLine(0 50 40 10 8)
+	SymbolLine(35 50 40 45 8)
+	SymbolLine(40 40 40 45 8)
+	SymbolLine(35 35 40 40 8)
+	SymbolLine(30 35 35 35 8)
+	SymbolLine(25 40 30 35 8)
+	SymbolLine(25 40 25 45 8)
+	SymbolLine(25 45 30 50 8)
+	SymbolLine(30 50 35 50 8)
+)
+Symbol('&' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 35 15 20 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(0 25 25 50 8)
+	SymbolLine(5 10 10 10 8)
+	SymbolLine(10 10 15 15 8)
+	SymbolLine(15 15 15 20 8)
+	SymbolLine(0 35 0 45 8)
+)
+Symbol(''' 12)
+(
+	SymbolLine(0 20 10 10 8)
+)
+Symbol('(' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+)
+Symbol(')' 12)
+(
+	SymbolLine(0 10 5 15 8)
+	SymbolLine(5 15 5 45 8)
+	SymbolLine(0 50 5 45 8)
+)
+Symbol('*' 12)
+(
+	SymbolLine(0 20 20 40 8)
+	SymbolLine(0 40 20 20 8)
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(10 20 10 40 8)
+)
+Symbol('+' 12)
+(
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(10 20 10 40 8)
+)
+Symbol(',' 12)
+(
+	SymbolLine(0 60 10 50 8)
+)
+Symbol('-' 12)
+(
+	SymbolLine(0 30 20 30 8)
+)
+Symbol('.' 12)
+(
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('/' 12)
+(
+	SymbolLine(0 45 30 15 8)
+)
+Symbol('0' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 40 20 20 8)
+)
+Symbol('1' 12)
+(
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(10 10 10 50 8)
+	SymbolLine(0 20 10 10 8)
+)
+Symbol('2' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(0 50 25 25 8)
+	SymbolLine(0 50 25 50 8)
+)
+Symbol('3' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol('4' 12)
+(
+	SymbolLine(0 30 20 10 8)
+	SymbolLine(0 30 25 30 8)
+	SymbolLine(20 10 20 50 8)
+)
+Symbol('5' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(0 10 0 30 8)
+	SymbolLine(0 30 5 25 8)
+	SymbolLine(5 25 15 25 8)
+	SymbolLine(15 25 20 30 8)
+	SymbolLine(20 30 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('6' 12)
+(
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(0 30 15 30 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 35 20 45 8)
+)
+Symbol('7' 12)
+(
+	SymbolLine(0 50 25 25 8)
+	SymbolLine(25 10 25 25 8)
+	SymbolLine(0 10 25 10 8)
+)
+Symbol('8' 12)
+(
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 25 8)
+	SymbolLine(15 30 20 25 8)
+)
+Symbol('9' 12)
+(
+	SymbolLine(0 50 20 30 8)
+	SymbolLine(20 15 20 30 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol(':' 12)
+(
+	SymbolLine(0 25 5 25 8)
+	SymbolLine(0 35 5 35 8)
+)
+Symbol(';' 12)
+(
+	SymbolLine(0 50 10 40 8)
+	SymbolLine(10 25 10 30 8)
+)
+Symbol('<' 12)
+(
+	SymbolLine(0 30 10 20 8)
+	SymbolLine(0 30 10 40 8)
+)
+Symbol('=' 12)
+(
+	SymbolLine(0 25 20 25 8)
+	SymbolLine(0 35 20 35 8)
+)
+Symbol('>' 12)
+(
+	SymbolLine(0 20 10 30 8)
+	SymbolLine(0 40 10 30 8)
+)
+Symbol('?' 12)
+(
+	SymbolLine(10 30 10 35 8)
+	SymbolLine(10 45 10 50 8)
+	SymbolLine(0 15 0 20 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 20 8)
+	SymbolLine(10 30 20 20 8)
+)
+Symbol('@' 12)
+(
+	SymbolLine(0 10 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 40 50 8)
+	SymbolLine(50 35 50 10 8)
+	SymbolLine(50 10 40 0 8)
+	SymbolLine(40 0 10 0 8)
+	SymbolLine(10 0 0 10 8)
+	SymbolLine(15 20 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 30 35 8)
+	SymbolLine(30 35 35 30 8)
+	SymbolLine(35 30 40 35 8)
+	SymbolLine(35 30 35 15 8)
+	SymbolLine(35 20 30 15 8)
+	SymbolLine(20 15 30 15 8)
+	SymbolLine(20 15 15 20 8)
+	SymbolLine(40 35 50 35 8)
+)
+Symbol('A' 12)
+(
+	SymbolLine(0 15 0 50 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 50 8)
+	SymbolLine(0 30 25 30 8)
+)
+Symbol('B' 12)
+(
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+)
+Symbol('C' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 20 10 8)
+)
+Symbol('D' 12)
+(
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(0 10 20 10 8)
+)
+Symbol('E' 12)
+(
+	SymbolLine(0 30 15 30 8)
+	SymbolLine(0 50 20 50 8)
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 20 10 8)
+)
+Symbol('F' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(0 30 15 30 8)
+)
+Symbol('G' 12)
+(
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(10 30 20 30 8)
+)
+Symbol('H' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(25 10 25 50 8)
+	SymbolLine(0 30 25 30 8)
+)
+Symbol('I' 12)
+(
+	SymbolLine(0 10 10 10 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 50 10 50 8)
+)
+Symbol('J' 12)
+(
+	SymbolLine(0 10 15 10 8)
+	SymbolLine(15 10 15 45 8)
+	SymbolLine(10 50 15 45 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('K' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 30 20 10 8)
+	SymbolLine(0 30 20 50 8)
+)
+Symbol('L' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('M' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 15 25 8)
+	SymbolLine(15 25 30 10 8)
+	SymbolLine(30 10 30 50 8)
+)
+Symbol('N' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 25 40 8)
+	SymbolLine(25 10 25 50 8)
+)
+Symbol('O' 12)
+(
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('P' 12)
+(
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+	SymbolLine(5 30 20 30 8)
+)
+Symbol('Q' 12)
+(
+	SymbolLine(0 15 0 45 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 15 10 8)
+	SymbolLine(15 10 20 15 8)
+	SymbolLine(20 15 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(10 40 20 50 8)
+)
+Symbol('R' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(25 15 25 25 8)
+	SymbolLine(20 30 25 25 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(5 30 25 50 8)
+)
+Symbol('S' 12)
+(
+	SymbolLine(20 10 25 15 8)
+	SymbolLine(5 10 20 10 8)
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(0 15 0 25 8)
+	SymbolLine(0 25 5 30 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('T' 12)
+(
+	SymbolLine(0 10 20 10 8)
+	SymbolLine(10 10 10 50 8)
+)
+Symbol('U' 12)
+(
+	SymbolLine(0 10 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 10 20 45 8)
+)
+Symbol('V' 12)
+(
+	SymbolLine(0 10 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(20 10 20 40 8)
+)
+Symbol('W' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 15 35 8)
+	SymbolLine(15 35 30 50 8)
+	SymbolLine(30 10 30 50 8)
+)
+Symbol('X' 12)
+(
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 25 40 8)
+	SymbolLine(25 40 25 50 8)
+	SymbolLine(0 40 0 50 8)
+	SymbolLine(0 40 25 15 8)
+	SymbolLine(25 10 25 15 8)
+)
+Symbol('Y' 12)
+(
+	SymbolLine(0 10 0 15 8)
+	SymbolLine(0 15 10 25 8)
+	SymbolLine(10 25 20 15 8)
+	SymbolLine(20 10 20 15 8)
+	SymbolLine(10 25 10 50 8)
+)
+Symbol('Z' 12)
+(
+	SymbolLine(0 10 25 10 8)
+	SymbolLine(25 10 25 15 8)
+	SymbolLine(0 40 25 15 8)
+	SymbolLine(0 40 0 50 8)
+	SymbolLine(0 50 25 50 8)
+)
+Symbol('[' 12)
+(
+	SymbolLine(0 10 5 10 8)
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('\' 12)
+(
+	SymbolLine(0 15 30 45 8)
+)
+Symbol(']' 12)
+(
+	SymbolLine(0 10 5 10 8)
+	SymbolLine(5 10 5 50 8)
+	SymbolLine(0 50 5 50 8)
+)
+Symbol('^' 12)
+(
+	SymbolLine(0 15 5 10 8)
+	SymbolLine(5 10 10 15 8)
+)
+Symbol('_' 12)
+(
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('a' 12)
+(
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(20 30 20 45 8)
+	SymbolLine(20 45 25 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('b' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+)
+Symbol('c' 12)
+(
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 20 50 8)
+)
+Symbol('d' 12)
+(
+	SymbolLine(20 10 20 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+)
+Symbol('e' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(0 40 20 40 8)
+	SymbolLine(20 40 20 35 8)
+)
+Symbol('f' 10)
+(
+	SymbolLine(5 15 5 50 8)
+	SymbolLine(5 15 10 10 8)
+	SymbolLine(10 10 15 10 8)
+	SymbolLine(0 30 10 30 8)
+)
+Symbol('g' 12)
+(
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(0 60 5 65 8)
+	SymbolLine(5 65 15 65 8)
+	SymbolLine(15 65 20 60 8)
+	SymbolLine(20 30 20 60 8)
+)
+Symbol('h' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+)
+Symbol('i' 10)
+(
+	SymbolLine(0 20 0 25 8)
+	SymbolLine(0 35 0 50 8)
+)
+Symbol('j' 10)
+(
+	SymbolLine(5 20 5 25 8)
+	SymbolLine(5 35 5 60 8)
+	SymbolLine(0 65 5 60 8)
+)
+Symbol('k' 12)
+(
+	SymbolLine(0 10 0 50 8)
+	SymbolLine(0 35 15 50 8)
+	SymbolLine(0 35 10 25 8)
+)
+Symbol('l' 10)
+(
+	SymbolLine(0 10 0 45 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('m' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+	SymbolLine(20 35 25 30 8)
+	SymbolLine(25 30 30 30 8)
+	SymbolLine(30 30 35 35 8)
+	SymbolLine(35 35 35 50 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('n' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 50 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('o' 12)
+(
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(20 35 20 45 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('p' 12)
+(
+	SymbolLine(5 35 5 65 8)
+	SymbolLine(0 30 5 35 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(25 35 25 45 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(10 50 20 50 8)
+	SymbolLine(5 45 10 50 8)
+)
+Symbol('q' 12)
+(
+	SymbolLine(20 35 20 65 8)
+	SymbolLine(15 30 20 35 8)
+	SymbolLine(5 30 15 30 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(0 35 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('r' 12)
+(
+	SymbolLine(5 35 5 50 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(10 30 20 30 8)
+	SymbolLine(0 30 5 35 8)
+)
+Symbol('s' 12)
+(
+	SymbolLine(5 50 20 50 8)
+	SymbolLine(20 50 25 45 8)
+	SymbolLine(20 40 25 45 8)
+	SymbolLine(5 40 20 40 8)
+	SymbolLine(0 35 5 40 8)
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 20 30 8)
+	SymbolLine(20 30 25 35 8)
+	SymbolLine(0 45 5 50 8)
+)
+Symbol('t' 10)
+(
+	SymbolLine(5 10 5 45 8)
+	SymbolLine(5 45 10 50 8)
+	SymbolLine(0 25 10 25 8)
+)
+Symbol('u' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+	SymbolLine(20 30 20 45 8)
+)
+Symbol('v' 12)
+(
+	SymbolLine(0 30 0 40 8)
+	SymbolLine(0 40 10 50 8)
+	SymbolLine(10 50 20 40 8)
+	SymbolLine(20 30 20 40 8)
+)
+Symbol('w' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(5 50 10 50 8)
+	SymbolLine(10 50 15 45 8)
+	SymbolLine(15 30 15 45 8)
+	SymbolLine(15 45 20 50 8)
+	SymbolLine(20 50 25 50 8)
+	SymbolLine(25 50 30 45 8)
+	SymbolLine(30 30 30 45 8)
+)
+Symbol('x' 12)
+(
+	SymbolLine(0 30 20 50 8)
+	SymbolLine(0 50 20 30 8)
+)
+Symbol('y' 12)
+(
+	SymbolLine(0 30 0 45 8)
+	SymbolLine(0 45 5 50 8)
+	SymbolLine(20 30 20 60 8)
+	SymbolLine(15 65 20 60 8)
+	SymbolLine(5 65 15 65 8)
+	SymbolLine(0 60 5 65 8)
+	SymbolLine(5 50 15 50 8)
+	SymbolLine(15 50 20 45 8)
+)
+Symbol('z' 12)
+(
+	SymbolLine(0 30 20 30 8)
+	SymbolLine(0 50 20 30 8)
+	SymbolLine(0 50 20 50 8)
+)
+Symbol('{' 12)
+(
+	SymbolLine(5 15 10 10 8)
+	SymbolLine(5 15 5 25 8)
+	SymbolLine(0 30 5 25 8)
+	SymbolLine(0 30 5 35 8)
+	SymbolLine(5 35 5 45 8)
+	SymbolLine(5 45 10 50 8)
+)
+Symbol('|' 12)
+(
+	SymbolLine(0 10 0 50 8)
+)
+Symbol('}' 12)
+(
+	SymbolLine(0 10 5 15 8)
+	SymbolLine(5 15 5 25 8)
+	SymbolLine(5 25 10 30 8)
+	SymbolLine(5 35 10 30 8)
+	SymbolLine(5 35 5 45 8)
+	SymbolLine(0 50 5 45 8)
+)
+Symbol('~' 12)
+(
+	SymbolLine(0 35 5 30 8)
+	SymbolLine(5 30 10 30 8)
+	SymbolLine(10 30 15 35 8)
+	SymbolLine(15 35 20 35 8)
+	SymbolLine(20 35 25 30 8)
 )
 
-	
-Element(0x00 "LED5" "LED9" "sr-ic-tsop2236" 100 70 0 100 0x00)
+Element["" "1206" "S1/F2" "sr-fuse-r50-1206" 560000 60000 -3150 -3150 0 100 ""]
 (
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
 
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
+	)
 
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-
-	
-Element(0x00 "LED5" "LED6" "sr-ic-tsop2236" 100 70 0 100 0x00)
+Element["" "1206" "S1/F1" "sr-fuse-r50-1206" 540000 60000 -3150 -3150 0 100 ""]
 (
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
 
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
+	)
 
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R12" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "TSSOP16" "S1/U2" "sr-ic-sn65lvds051" 118642 339861 -2000 -6000 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[-13917 -8956 -9311 -8956 1299 1000 2299 "1" "1" "square"]
+	Pad[-13917 -6397 -9311 -6397 1299 1000 2299 "2" "2" "square"]
+	Pad[-13917 -3838 -9311 -3838 1299 1000 2299 "3" "3" "square"]
+	Pad[-13917 -1279 -9311 -1279 1299 1000 2299 "4" "4" "square"]
+	Pad[-13917 1279 -9311 1279 1299 1000 2299 "5" "5" "square"]
+	Pad[-13917 3838 -9311 3838 1299 1000 2299 "6" "6" "square"]
+	Pad[-13917 6397 -9311 6397 1299 1000 2299 "7" "7" "square"]
+	Pad[-13917 8956 -9311 8956 1299 1000 2299 "8" "8" "square"]
+	Pad[9311 8956 13917 8956 1299 1000 2299 "9" "9" "square,edge2"]
+	Pad[9311 6397 13917 6397 1299 1000 2299 "10" "10" "square,edge2"]
+	Pad[9311 3838 13917 3838 1299 1000 2299 "11" "11" "square,edge2"]
+	Pad[9311 1279 13917 1279 1299 1000 2299 "12" "12" "square,edge2"]
+	Pad[9311 -1279 13917 -1279 1299 1000 2299 "13" "13" "square,edge2"]
+	Pad[9311 -3838 13917 -3838 1299 1000 2299 "14" "14" "square,edge2"]
+	Pad[9311 -6397 13917 -6397 1299 1000 2299 "15" "15" "square,edge2"]
+	Pad[9311 -8956 13917 -8956 1299 1000 2299 "16" "16" "square,edge2"]
+	ElementLine [-15566 -10606 -15566 10606 1000]
+	ElementLine [-15566 10606 15566 10606 1000]
+	ElementLine [15566 10606 15566 -10606 1000]
+	ElementLine [-15566 -10606 -2500 -10606 1000]
+	ElementLine [15566 -10606 2500 -10606 1000]
+	ElementArc [0 -10606 2500 2500 0 180 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R11" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/D6" "sr-d-gsot15" 448189 89527 12300 -11000 3 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R9" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/D5" "sr-d-mmbz5v6al" 440000 60000 12300 -11000 3 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R10" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/D7" "sr-d-mmbz5v6al" 145632 119453 -6395 30685 1 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [2500 -2900 2500 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 11000 2500 11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT26" "Q3" "sr-fet-RTQ020N03" 138 0 3 100 0x00)
+Element["" "SOT23" "S1/D3" "sr-d-mmbz5v6al" 112130 357968 -18206 9031 1 100 ""]
 (
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 118 139 10)
-	ElementLine(118 139 118 0 10)
-	ElementLine(118 0 0 0 10)
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [2500 -2900 2500 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 11000 2500 11000 1000]
 
-	# 1st side, 1st pin
-	Pad(20 102
-	       20 118
-			   24 "1" "1" 0x100)
-	 
-	
+	)
 
-	# 1st side, 2nd pin
-	Pad(59 102
-	       59 118
-			   24 "2" "2" 0x100)
-	   
-	 
-
-	# 1st side, 3rd pin
-	Pad(98 102
-	    98 118
-			   24 "3" "3" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	Pad(98 20
-	       98 36
-			   24 "4" "4" 0x100)
-	   
-	 
-
-	# 2nd side, 2nd pin
-	Pad(59 20
-	       59 36
-			   24 "5" "5" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	Pad(20 20
-	       20 36
-			   24 "6" "6" 0x100)
-	 
-
-	Mark(20 110)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "C4" "sr-c-10n" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT262FET" "Q3" "sr-fet-RTQ020N03" 120116 288201 11800 -11000 3 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[0 -800 0 800 2400 3000 3000 "1" "D" "square,edge2"]
+	Pad[3900 -800 3900 800 2400 3000 3000 "2" "D" "square,edge2"]
+	Pad[7800 -800 7800 800 2400 3000 3000 "3" "G" "square,edge2"]
+	Pad[7800 -9000 7800 -7400 2400 3000 3000 "4" "S" "square"]
+	Pad[3900 -9000 3900 -7400 2400 3000 3000 "5" "D" "square"]
+	Pad[0 -9000 0 -7400 2400 3000 3000 "6" "D" "square"]
+	ElementLine [-2000 -11000 -2000 -5600 1000]
+	ElementLine [-2000 -2500 -2000 2900 1000]
+	ElementLine [-2000 2900 9800 2900 1000]
+	ElementLine [9800 2900 9800 -11000 1000]
+	ElementLine [9800 -11000 -2000 -11000 1000]
+	ElementArc [-2000 -4100 1500 1500 90 180 1000]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask
-	
-	# clearance from planes
-	
-Element(0x00 "SOD80" "D1" "sr-d-ll4448" 0 0 116 0 3 100 0x00)
+Element["" "1206" "S1/F4" "sr-fuse-r50-1206" 44094 116378 -3150 -3150 0 100 ""]
 (
-	ElementLine(-106 -43 -106 43 20)
-	    ElementLine(-106 43 -80 55 10)
-	    ElementLine(-80 55 96 55 10)
-	    ElementLine(96 55 96 -55 10)
-	    ElementLine(96 -55 -80 -55 10)
-	    ElementLine(-80 -55 -106 -43 10)
-	   
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
 
-	Pad(-58 -16 
-		-58 16
-		53 20 59 "1" "1" 0x00000100)
-	    Pad(58 -16 
-		58 16
-		53 20 59 "2" "2" 0x00000100)
-	 
+	)
 
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "C3" "sr-c-10n" 0 0 -3150 -3150 0 100 ""]
+Element["" "8P8C" "S1/S/J1" "sr-cn-8p8c" 69370 337716 -5000 0 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R13" "sr-r-2k4" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R15" "sr-r-560" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	# number of pads
-	
-	# pad width in 1/1000 mil
-        
-	# pad length in 1/1000 mil
-        
-	# pad pitch 1/1000 mil
-	
-	# seperation between pads on opposite sides 1/1000 mil
-	
-
-	# X coordinates for the right hand column of pads (1/100 mils)
-        
-        
-
-	# pad clearance to plane layer in 1/100 mil
-        
-
-	# pad soldermask width in 1/100 mil
-        
-
-	# silk screen width (1/100 mils)
-	
-	
-
-
-	# figure out if we have an even or odd number of pins per side
-	
-	
-	
-
-	# silk bounding box is -XMAX,-YMAX, XMAX,YMAX (1/100 mils)
-	
-	
-
-	
-
-	
-		
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "SO8" "U3" "sr-ic-TS555CD" 0 0 -2000 -6000 0 100 0x00000000]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-        Pad[   -13500 -7500 
-			 -7000 -7500 
-			2000 1000 3000 "1" "1" 0x00000100]
-
-		
-			
-        Pad[   -13500 -2500 
-			 -7000 -2500 
-			2000 1000 3000 "2" "2" 0x00000100]
-
-		
-			
-        Pad[   -13500 2500 
-			 -7000 2500 
-			2000 1000 3000 "3" "3" 0x00000100]
-
-		
-			
-        Pad[   -13500 7500 
-			 -7000 7500 
-			2000 1000 3000 "4" "4" 0x00000100]
-
-		
-			
-        
-        Pad[   13500 7500 
-			 7000 7500 
-			2000 1000 3000 "5" "5" 0x00000100]
-		
-			
-        Pad[   13500 2500 
-			 7000 2500 
-			2000 1000 3000 "6" "6" 0x00000100]
-		
-			
-        Pad[   13500 -2500 
-			 7000 -2500 
-			2000 1000 3000 "7" "7" 0x00000100]
-		
-			
-        Pad[   13500 -7500 
-			 7000 -7500 
-			2000 1000 3000 "8" "8" 0x00000100]
-		
-			
-        
-
-	ElementLine[-15500 -9500 -15500  9500 1000]
-	ElementLine[-15500  9500  15500  9500 1000]
-	ElementLine[ 15500  9500  15500 -9500 1000]
-	ElementLine[-15500 -9500 -2500 -9500 1000]
-	ElementLine[ 15500 -9500  2500 -9500 1000]
-
-	# punt on the arc on small parts as it can cover the pads
-	ElementArc[0 -9500 2500 2500 0 180 1000]
-	
-)
-Element["" "KPA" "LED13" "sr-led-red-KPA" 0 0 22100 0 3 100 ""]
-(
-	ElementLine[0mm  -1mm 4mm  -1mm 0.5mm] # Top
-	ElementLine[-1mm  0mm  -1mm  2mm 0.5mm] # Left
-	ElementLine[ -1mm 2mm  4mm 2mm 0.5mm] # Bottom 
-	ElementLine[ 4mm  -1mm  4mm 2mm 0.5mm] # Right
-	ElementLine[-0mm  -1mm  -1mm 0mm 0.5mm] # Top Left
-
-	Pad[0mm 0mm 0mm  1mm 0.7mm 0.5mm 0.7mm "2" "2" "square"]
-	Pad[3mm 0mm 3mm  1mm 0.7mm 0.5mm 0.7mm "1" "1" "square"]
-)
-Element["" "KPA" "LED12" "sr-led-red-KPA" 0 0 22100 0 3 100 ""]
-(
-	ElementLine[0mm  -1mm 4mm  -1mm 0.5mm] # Top
-	ElementLine[-1mm  0mm  -1mm  2mm 0.5mm] # Left
-	ElementLine[ -1mm 2mm  4mm 2mm 0.5mm] # Bottom 
-	ElementLine[ 4mm  -1mm  4mm 2mm 0.5mm] # Right
-	ElementLine[-0mm  -1mm  -1mm 0mm 0.5mm] # Top Left
-
-	Pad[0mm 0mm 0mm  1mm 0.7mm 0.5mm 0.7mm "2" "2" "square"]
-	Pad[3mm 0mm 3mm  1mm 0.7mm 0.5mm 0.7mm "1" "1" "square"]
-)
-Element["" "KPA" "LED11" "sr-led-red-KPA" 0 0 22100 0 3 100 ""]
-(
-	ElementLine[0mm  -1mm 4mm  -1mm 0.5mm] # Top
-	ElementLine[-1mm  0mm  -1mm  2mm 0.5mm] # Left
-	ElementLine[ -1mm 2mm  4mm 2mm 0.5mm] # Bottom 
-	ElementLine[ 4mm  -1mm  4mm 2mm 0.5mm] # Right
-	ElementLine[-0mm  -1mm  -1mm 0mm 0.5mm] # Top Left
-
-	Pad[0mm 0mm 0mm  1mm 0.7mm 0.5mm 0.7mm "2" "2" "square"]
-	Pad[3mm 0mm 3mm  1mm 0.7mm 0.5mm 0.7mm "1" "1" "square"]
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R14" "sr-r-10k" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-Element[0x00000000 "SW" "S2" "unknown" 0 0 -2000 -6000 0 100 0x00000000]
-(
-        Pad[   0mm 0mm 0mm 0.7mm 1.4mm 0.5mm 0.9mm "3" "3" "square"]
-        Pad[   4.5mm 0mm 4.5mm 0.7mm 1.4mm 0.5mm 0.9mm "1" "1" "square"]
-        Pad[   0mm 9.1mm 0mm 9.8mm 1.4mm 0.5mm 0.9mm "3" "3" "square"]
-        Pad[   4.5mm 9.1mm 4.5mm 9.8mm 1.4mm 0.5mm 0.9mm "1" "1" "square"]
-
-	ElementLine[-1mm -1mm -1mm  11mm 0.5mm]    # Left
-	ElementLine[-1mm  -1mm  5.5mm  -1mm 0.5mm] # Top
-	ElementLine[ 5.5mm  -1mm  5.5mm 11mm 0.5mm]# Right
-	ElementLine[-1mm 11mm 5.5mm 11mm 0.5mm]   # Bottom
-)
-Element["" "KPA" "LED10" "sr-led-red-KPA" 0 0 22100 0 3 100 ""]
-(
-	ElementLine[0mm  -1mm 4mm  -1mm 0.5mm] # Top
-	ElementLine[-1mm  0mm  -1mm  2mm 0.5mm] # Left
-	ElementLine[ -1mm 2mm  4mm 2mm 0.5mm] # Bottom 
-	ElementLine[ 4mm  -1mm  4mm 2mm 0.5mm] # Right
-	ElementLine[-0mm  -1mm  -1mm 0mm 0.5mm] # Top Left
-
-	Pad[0mm 0mm 0mm  1mm 0.7mm 0.5mm 0.7mm "2" "2" "square"]
-	Pad[3mm 0mm 3mm  1mm 0.7mm 0.5mm 0.7mm "1" "1" "square"]
-)
-Element["" "PLCC2" "LED14" "sr-led-green-plcc2" 0 0 22100 0 3 100 ""]
-(
-	ElementLine[-6690  -3900 -6690  5900 1000] # Left
-	ElementLine[-6690    5900  6690  5900 1000] # Bottom
-	ElementLine[ 6690   5900  6690 -5900 1000] # Right 
-	ElementLine[ 6690  -5900  -4690 -5900 1000] # Top
-	ElementLine[-6690  -3900  -4690 -5900 1000] # Top Left
-	ElementArc[0 0 4000 4000 0 360 1000]
-
-	Pad[-5860 -2118 
-	    -5860  2118
-	      6000 2000 6600 "2" "2" "square"]
-	Pad[5860 -2118
-	    5860  2118
-	     6000 2000 6600 "1" "1" "square"]
-)
-
-	
-Element(0x00 "LED5" "LED2" "sr-ic-tsop2236" 100 70 0 100 0x00)
-(
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-
-	
-Element(0x00 "LED5" "LED1" "sr-ic-tsop2236" 100 70 0 100 0x00)
-(
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-
-	
-Element(0x00 "LED5" "LED8" "sr-ic-tsop2236" 100 70 0 100 0x00)
-(
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-
-	
-Element(0x00 "LED5" "LED5" "sr-ic-tsop2236" 100 70 0 100 0x00)
-(
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-
-	
-Element(0x00 "LED5" "LED4" "sr-ic-tsop2236" 100 70 0 100 0x00)
-(
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-
-	
-Element(0x00 "LED5" "LED7" "sr-ic-tsop2236" 100 70 0 100 0x00)
-(
-# typical LED is 0.5 mm or 0.020" square pin.  See for example
-# http://www.lumex.com and part number SSL-LX3054LGD.
-# 0.020" square is 0.0288" diagonal.  A number 57 drill is 
-# 0.043" which should be enough.  a 65 mil pad gives 11 mils
-# of annular ring.
-
-	Pin(-50 0 65 43 "1" 0x101)
-	Pin(50 0 65 43 "2" 0x01)
-   ElementArc(0 0 118 118     0 360 10)
-
-   ElementArc(0 0 138 138     0 360 10)
-
-	Mark(0 0)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT26" "Q4" "sr-fet-RTQ020N03" 138 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 118 139 10)
-	ElementLine(118 139 118 0 10)
-	ElementLine(118 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(20 102
-	       20 118
-			   24 "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	Pad(59 102
-	       59 118
-			   24 "2" "2" 0x100)
-	   
-	 
-
-	# 1st side, 3rd pin
-	Pad(98 102
-	    98 118
-			   24 "3" "3" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	Pad(98 20
-	       98 36
-			   24 "4" "4" 0x100)
-	   
-	 
-
-	# 2nd side, 2nd pin
-	Pad(59 20
-	       59 36
-			   24 "5" "5" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	Pad(20 20
-	       20 36
-			   24 "6" "6" 0x100)
-	 
-
-	Mark(20 110)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R18" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R19" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "C5" "sr-c-2u2" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R17" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-Element["" "sr_rx" "U4" "unknown" 65000 30000 -6000 3500 0 100 ""]
-(
-Pin[-5.08mm 0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "3" "edge2"]
-Pin[-2.54mm 0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "2" "edge2"]
-Pin[ 0mm    0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "1" "edge2"]
-ElementLine [-6.38mm -2.8mm 1.3mm -2.8mm 0.2mm]
-ElementLine [-6.38mm -2.8mm -6.38mm 1.3mm 0.2mm]
-ElementLine [-6.38mm  1.3mm 1.3mm 1.3mm 0.2mm]
-ElementLine [1.3mm -2.8mm 1.3mm 1.3mm 0.2mm]
-ElementArc[-2.54mm -2.8mm 2.54mm 1.6mm 0 -180 0.2mm]
-
-)
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "C6" "sr-c-2u2" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R20" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-Element["" "sr_rx" "U5" "unknown" 65000 30000 -6000 3500 0 100 ""]
-(
-Pin[-5.08mm 0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "3" "edge2"]
-Pin[-2.54mm 0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "2" "edge2"]
-Pin[ 0mm    0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "1" "edge2"]
-ElementLine [-6.38mm -2.8mm 1.3mm -2.8mm 0.2mm]
-ElementLine [-6.38mm -2.8mm -6.38mm 1.3mm 0.2mm]
-ElementLine [-6.38mm  1.3mm 1.3mm 1.3mm 0.2mm]
-ElementLine [1.3mm -2.8mm 1.3mm 1.3mm 0.2mm]
-ElementArc[-2.54mm -2.8mm 2.54mm 1.6mm 0 -180 0.2mm]
-
-)
-
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "C7" "sr-c-2u2" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R21" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	
-	
-	
-	
-	
-	
-Element(0x00 "RCY200P" "C2" "sr-c-1m" 400 0 0 100 0x00)
-(
-	Pin(100 200 60 30 "1" 0x101)
-	Pin(300 200 60 30 "2" 0x01)
-	ElementArc(200 200 200 200 0 360 10)
-
-	ElementLine(-60 200            -20 200 10)
-	ElementLine(-40 180 -40 220 10)
-	ElementLine(420 200 460  200 10)
-	
-
-	Mark (100 200)
-)
-
-	
-	
-	
-	
-	
-	
-Element(0x00 "RCY200P" "C1" "sr-c-1m" 400 0 0 100 0x00)
-(
-	Pin(100 200 60 30 "1" 0x101)
-	Pin(300 200 60 30 "2" 0x01)
-	ElementArc(200 200 200 200 0 360 10)
-
-	ElementLine(-60 200            -20 200 10)
-	ElementLine(-40 180 -40 220 10)
-	ElementLine(420 200 460  200 10)
-	
-
-	Mark (100 200)
-)
-
-Element(0x00 "SIP1" "CONN5" "sr-con-2211S03G" 160 10 3 100 0x00)
-(
-	Pin(50 50 60 28 "1" 0x101)
-	
-	ElementLine(  0 50   0 50 20)
-	ElementLine(100 50 100 50 20)
-	ElementLine(  0 100 100 100 10)
-	ElementArc(50  50 50 50 180 180 20)
-	ElementArc(50 50 50 50   0 180 20)
-	Mark(50 50)
-)
-
-Element(0x00 "SIP1" "CONN4" "sr-con-2211S03G" 160 10 3 100 0x00)
-(
-	Pin(50 50 60 28 "1" 0x101)
-	
-	ElementLine(  0 50   0 50 20)
-	ElementLine(100 50 100 50 20)
-	ElementLine(  0 100 100 100 10)
-	ElementArc(50  50 50 50 180 180 20)
-	ElementArc(50 50 50 50   0 180 20)
-	Mark(50 50)
-)
-
-Element(0x00 "SIP1" "CONN3" "sr-con-2211S03G" 160 10 3 100 0x00)
-(
-	Pin(50 50 60 28 "1" 0x101)
-	
-	ElementLine(  0 50   0 50 20)
-	ElementLine(100 50 100 50 20)
-	ElementLine(  0 100 100 100 10)
-	ElementArc(50  50 50 50 180 180 20)
-	ElementArc(50 50 50 50   0 180 20)
-	Mark(50 50)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D9" "sr-d-mmbz5v6al" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D8" "sr-d-mmbz5v6al" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D7" "sr-d-mmbz5v6al" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R8" "sr-r-330" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R4" "sr-r-330" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "S1/F4" "sr-fuse-r50-1206" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "S1/F3" "sr-fuse-r50-1206" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "S1/F2" "sr-fuse-r50-1206" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "S1/F1" "sr-fuse-r50-1206" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
-
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	# number of pads
-	
-	# pad width in 1/1000 mil
-        
-	# pad length in 1/1000 mil
-        
-	# pad pitch 1/1000 mil
-	
-	# seperation between pads on opposite sides 1/1000 mil
-	
-
-	# X coordinates for the right hand column of pads (1/100 mils)
-        
-        
-
-	# pad clearance to plane layer in 1/100 mil
-        
-
-	# pad soldermask width in 1/100 mil
-        
-
-	# silk screen width (1/100 mils)
-	
-	
-
-
-	# figure out if we have an even or odd number of pins per side
-	
-	
-	
-
-	# silk bounding box is -XMAX,-YMAX, XMAX,YMAX (1/100 mils)
-	
-	
-
-	
-
-	
-		
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "TSSOP16" "S1/U2" "sr-ic-sn65lvds051" 0 0 -2000 -6000 0 100 0x00000000]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-        Pad[   -13917 -8956 
-			 -9311 -8956 
-			1299 1000 2299 "1" "1" 0x00000100]
-
-		
-			
-        Pad[   -13917 -6397 
-			 -9311 -6397 
-			1299 1000 2299 "2" "2" 0x00000100]
-
-		
-			
-        Pad[   -13917 -3838 
-			 -9311 -3838 
-			1299 1000 2299 "3" "3" 0x00000100]
-
-		
-			
-        Pad[   -13917 -1279 
-			 -9311 -1279 
-			1299 1000 2299 "4" "4" 0x00000100]
-
-		
-			
-        Pad[   -13917 1279 
-			 -9311 1279 
-			1299 1000 2299 "5" "5" 0x00000100]
-
-		
-			
-        Pad[   -13917 3838 
-			 -9311 3838 
-			1299 1000 2299 "6" "6" 0x00000100]
-
-		
-			
-        Pad[   -13917 6397 
-			 -9311 6397 
-			1299 1000 2299 "7" "7" 0x00000100]
-
-		
-			
-        Pad[   -13917 8956 
-			 -9311 8956 
-			1299 1000 2299 "8" "8" 0x00000100]
-
-		
-			
-        
-        Pad[   13917 8956 
-			 9311 8956 
-			1299 1000 2299 "9" "9" 0x00000100]
-		
-			
-        Pad[   13917 6397 
-			 9311 6397 
-			1299 1000 2299 "10" "10" 0x00000100]
-		
-			
-        Pad[   13917 3838 
-			 9311 3838 
-			1299 1000 2299 "11" "11" 0x00000100]
-		
-			
-        Pad[   13917 1279 
-			 9311 1279 
-			1299 1000 2299 "12" "12" 0x00000100]
-		
-			
-        Pad[   13917 -1279 
-			 9311 -1279 
-			1299 1000 2299 "13" "13" 0x00000100]
-		
-			
-        Pad[   13917 -3838 
-			 9311 -3838 
-			1299 1000 2299 "14" "14" 0x00000100]
-		
-			
-        Pad[   13917 -6397 
-			 9311 -6397 
-			1299 1000 2299 "15" "15" 0x00000100]
-		
-			
-        Pad[   13917 -8956 
-			 9311 -8956 
-			1299 1000 2299 "16" "16" 0x00000100]
-		
-			
-        
-
-	ElementLine[-15566 -10606 -15566  10606 1000]
-	ElementLine[-15566  10606  15566  10606 1000]
-	ElementLine[ 15566  10606  15566 -10606 1000]
-	ElementLine[-15566 -10606 -2500 -10606 1000]
-	ElementLine[ 15566 -10606  2500 -10606 1000]
-
-	# punt on the arc on small parts as it can cover the pads
-	ElementArc[0 -10606 2500 2500 0 180 1000]
-	
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D6" "sr-d-gsot15" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D5" "sr-d-mmbz5v6al" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D4" "sr-d-mmbz5v6al" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT23" "S1/D3" "sr-d-mmbz5v6al" 148 0 3 100 0x00)
-(
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 128 139 10)
-	ElementLine(128 139 128 0 10)
-	ElementLine(128 0 0 0 10)
-
-	# 1st side, 1st pin
-	Pad(25 107
-	       25 113
-			   34
-			      "1" "1" 0x100)
-	 
-	
-
-	# 1st side, 2nd pin
-	
-
-	# 1st side, 3rd pin
-	Pad(103 107
-	    103 113
-			   34
-			      "2" "2" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	
-
-	# 2nd side, 2nd pin
-	Pad(64 25
-	       64 31
-			   34
-			      "3" "3" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	
-
-	Mark(25 110)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R7" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
-(
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
-
-	
-
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-Element["" "8P8C" "S1/S/J2" "sr-cn-8p8c" 50000 50000 -5000 0 0 100 ""]
-(
-	Pin[10000 35000 6000 2000 7000 3500 "" "8" "edge2"]
-	Pin[    0 30000 6000 2000 7000 3500 "" "7" "edge2"]
-	Pin[10000 15000 6000 2000 7000 3500 "" "4" "edge2"]
-	Pin[    0 10000 6000 2000 7000 3500 "" "3" "edge2"]
-	Pin[    0 20000 6000 2000 7000 3500 "" "5" "edge2"]
-	Pin[    0     0 6000 2000 7000 3500 "" "1" "square,edge2"]
-	Pin[10000  5000 6000 2000 7000 3500 "" "2" "edge2"]
-	Pin[10000 25000 6000 2000 7000 3500 "" "6" "edge2"]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole,edge2"]
+	Pin[10000 35000 6000 2000 7000 3500 "" "8" ""]
+	Pin[0 30000 6000 2000 7000 3500 "" "7" ""]
+	Pin[10000 15000 6000 2000 7000 3500 "" "4" ""]
+	Pin[0 10000 6000 2000 7000 3500 "" "3" ""]
+	Pin[0 20000 6000 2000 7000 3500 "" "5" ""]
+	Pin[0 0 6000 2000 7000 3500 "" "1" "square"]
+	Pin[10000 5000 6000 2000 7000 3500 "" "2" ""]
+	Pin[10000 25000 6000 2000 7000 3500 "" "6" ""]
+	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole"]
+	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole"]
 	ElementLine [-39775 49500 15000 49500 1000]
 	ElementLine [15000 49500 15000 -14500 1000]
 	ElementLine [-39775 -14500 15000 -14500 1000]
+
 	)
 
-Element["" "8P8C" "S1/S/J1" "sr-cn-8p8c" 50000 50000 -5000 0 0 100 ""]
-(
-	Pin[10000 35000 6000 2000 7000 3500 "" "8" "edge2"]
-	Pin[    0 30000 6000 2000 7000 3500 "" "7" "edge2"]
-	Pin[10000 15000 6000 2000 7000 3500 "" "4" "edge2"]
-	Pin[    0 10000 6000 2000 7000 3500 "" "3" "edge2"]
-	Pin[    0 20000 6000 2000 7000 3500 "" "5" "edge2"]
-	Pin[    0     0 6000 2000 7000 3500 "" "1" "square,edge2"]
-	Pin[10000  5000 6000 2000 7000 3500 "" "2" "edge2"]
-	Pin[10000 25000 6000 2000 7000 3500 "" "6" "edge2"]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	ElementLine [-39775 49500 15000 49500 1000]
-	ElementLine [15000 49500 15000 -14500 1000]
-	ElementLine [-39775 -14500 15000 -14500 1000]
-	)
-Element["" "dual_led" "S1/LED1" "sr-led-redgreen" 10343 5800 -2000 -6000 0 100 ""]
+Element["" "dual_led" "S1/LED1" "sr-led-redgreen" 232284 124803 -2000 -6000 0 100 ""]
 (
 	Pad[-7874 -2756 -5906 -2756 3937 1000 4537 "1" "1" "square"]
-	Pad[-7874  2756 -5906  2756 3937 1000 4537 "3" "3" "square"]
-	Pad[ 5906  2756  7874  2756 3937 1000 4537 "4" "4" "square"]
-	Pad[ 5906 -2756  7874 -2756 3937 1000 4537 "2" "2" "square"]
-
-	ElementLine [-6300 -5300 -6300  5300 1000] # Left
-	ElementLine [-6300  5300  6300  5300 1000] # Bottom
-	ElementLine [ 6300  5300  6300 -5300 1000] # Right
-	ElementLine [ 6300 -5300 -6300 -5300 1000] # Top
-
+	Pad[-7874 2756 -5906 2756 3937 1000 4537 "3" "3" "square"]
+	Pad[5906 2756 7874 2756 3937 1000 4537 "4" "4" "square,edge2"]
+	Pad[5906 -2756 7874 -2756 3937 1000 4537 "2" "2" "square,edge2"]
+	ElementLine [-6300 -5300 -6300 5300 1000]
+	ElementLine [-6300 5300 6300 5300 1000]
+	ElementLine [6300 5300 6300 -5300 1000]
+	ElementLine [6300 -5300 -6300 -5300 1000]
 	ElementLine [0 -5300 0 5300 1000]
 	ElementLine [0 0 3000 0 1000]
 
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R6" "sr-r-330" 0 0 -3150 -3150 0 100 ""]
+	)
+
+Element["" "sr_0603" "S1/R6" "sr-r-100" 190000 50000 0 0 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R5" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
+Element["" "sr_0603" "S1/R5" "sr-r-100" 170000 50000 0 0 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0805" "S1/C2" "sr-c-2u2-0805" 0 0 -3150 -3150 0 100 ""]
+Element["" "0805" "S1/C2" "sr-c-2u2-0805" 150000 50000 -3150 -3150 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-3543 -393
-		-3543 393
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[3543 -393
-		3543 393
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-393 -2755 393 -2755 800]
+	ElementLine [-393 2755 393 2755 800]
 
-	ElementLine[-393 -2755 393 -2755 800]
-	    ElementLine[-393 2755 393 2755 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT223" "S1/U1" "sr-ic-ld1117s33" 305 0 3 100 0x00)
+Element["" "LED5" "LED3" "sr-ic-tsop2236" 55118 420196 7000 -10000 1 100 ""]
 (
-	ElementLine(0 0 0 414 10)
-	ElementLine(0 414 285 414 10)
-	ElementLine(285 414 285 0 10)
-	ElementLine(285 0 0 0 10)
+	Pin[0 5000 6500 3000 7100 4300 "1" "1" "square"]
+	Pin[0 -5000 6500 3000 7100 4300 "2" "2" ""]
+	ElementArc [0 0 11800 11800 90 360 1000]
+	ElementArc [0 0 13800 13800 90 360 1000]
 
-	# 1st pin on pin side
-	Pad(52 296
-	    52 362
-			   56
-			      "1" "1" 0x100)
-	
+	)
 
-	Pad(142 296
-	       142 362
-			   56
-			      "2" "2" 0x100)
-	   
-	 
-	
-
-	# last pin on pin side
-	Pad(233 296
-	    233 362
-			   56
-			      "3" "3" 0x100)
-	
-
-	# extra wide pin on opposite side
-	Pad(187 85
-	    97 85
-			   122 "4" "4" 0x100)
-
-	Mark(52 329)
-)
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask
-	
-	# clearance from planes
-	
-Element(0x00 "SOD80" "S1/D2" "sr-d-ll4448" 0 0 116 0 3 100 0x00)
+Element["" "SOD80" "S1/D2" "sr-d-ll4448" 151155 388164 -11600 0 1 100 ""]
 (
-	ElementLine(-106 -43 -106 43 20)
-	    ElementLine(-106 43 -80 55 10)
-	    ElementLine(-80 55 96 55 10)
-	    ElementLine(96 55 96 -55 10)
-	    ElementLine(96 -55 -80 -55 10)
-	    ElementLine(-80 -55 -106 -43 10)
-	   
+	Pad[5800 -1600 5800 1600 5300 2000 5900 "1" "1" "square"]
+	Pad[-5800 -1600 -5800 1600 5300 2000 5900 "2" "2" "square"]
+	ElementLine [10600 -4300 10600 4300 2000]
+	ElementLine [10600 -4300 8000 -5500 1000]
+	ElementLine [-9600 -5500 8000 -5500 1000]
+	ElementLine [-9600 -5500 -9600 5500 1000]
+	ElementLine [-9600 5500 8000 5500 1000]
+	ElementLine [8000 5500 10600 4300 1000]
 
-	Pad(-58 -16 
-		-58 16
-		53 20 59 "1" "1" 0x00000100)
-	    Pad(58 -16 
-		58 16
-		53 20 59 "2" "2" 0x00000100)
-	 
+	)
 
-)
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask
-	
-	# clearance from planes
-	
-Element(0x00 "SOD80" "S1/D1" "sr-d-ll4448" 0 0 116 0 3 100 0x00)
+Element["" "SOD80" "S1/D1" "sr-d-ll4448" 50000 60000 11600 0 3 100 ""]
 (
-	ElementLine(-106 -43 -106 43 20)
-	    ElementLine(-106 43 -80 55 10)
-	    ElementLine(-80 55 96 55 10)
-	    ElementLine(96 55 96 -55 10)
-	    ElementLine(96 -55 -80 -55 10)
-	    ElementLine(-80 -55 -106 -43 10)
-	   
+	Pad[-5800 -1600 -5800 1600 5300 2000 5900 "1" "1" "square"]
+	Pad[5800 -1600 5800 1600 5300 2000 5900 "2" "2" "square"]
+	ElementLine [-10600 -4300 -10600 4300 2000]
+	ElementLine [-10600 4300 -8000 5500 1000]
+	ElementLine [-8000 5500 9600 5500 1000]
+	ElementLine [9600 5500 9600 -5500 1000]
+	ElementLine [9600 -5500 -8000 -5500 1000]
+	ElementLine [-8000 -5500 -10600 -4300 1000]
 
-	Pad(-58 -16 
-		-58 16
-		53 20 59 "1" "1" 0x00000100)
-	    Pad(58 -16 
-		58 16
-		53 20 59 "2" "2" 0x00000100)
-	 
+	)
 
-)
-
-	
-Element(0x00 "JUMPER5" "S1/J3" "sr-cn-header5" 160 0 3 100 0x00)
+Element["" "sr_0603" "S1/R7" "sr-r-100" 90551 338583 5833 -3978 0 100 ""]
 (
-	Pin(50 50 60 38 "1" 0x101)
-	 Pin(50 150 60 38 "2" 0x01)
-	 Pin(50 250 60 38 "3" 0x01)
-	 Pin(50 350 60 38 "4" 0x01)
-	 Pin(50 450 60 38 "5" 0x01)
-	 
-	ElementLine(0 0 0 500 10)
-	ElementLine(0 500 100 500 10)
-	ElementLine(100 500 100 0 10)
-	ElementLine(100 0 0 0 10)
-	ElementLine(0 100 100 100 10)
-	ElementLine(100 100 100 0 10)
-	Mark(50 50)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R2" "sr-r-10k" 0 0 -3150 -3150 0 100 ""]
+	Pad[-484 2917 484 2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-1508 -787 -1508 787 787]
+	ElementLine [1508 -787 1508 787 787]
+
+	)
+
+Element["" "1206" "R1" "sr-r-22" 226772 362991 3150 3150 2 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 3740 2362 3740 800]
+	ElementLine [-2362 -3740 2362 -3740 800]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R1" "sr-r-10k" 0 0 -3150 -3150 0 100 ""]
+Element["" "1206" "R4" "sr-r-22" 226772 335826 3150 3150 2 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 3740 2362 3740 800]
+	ElementLine [-2362 -3740 2362 -3740 800]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/C4" "sr-c-100n" 0 0 -3150 -3150 0 100 ""]
+Element["" "sr_0603" "R14" "sr-r-10k" 282445 131406 -3940 -9539 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/C6" "sr-c-100n" 0 0 -3150 -3150 0 100 ""]
+Element["" "1206" "R2" "sr-r-22" 226772 353542 3150 3150 2 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 3740 2362 3740 800]
+	ElementLine [-2362 -3740 2362 -3740 800]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/R3" "sr-r-10k" 0 0 -3150 -3150 0 100 ""]
+Element["" "LED5" "LED6" "sr-ic-tsop2236" 63897 250000 10000 7000 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pin[-5000 0 6500 3000 7100 4300 "1" "1" "square"]
+	Pin[5000 0 6500 3000 7100 4300 "2" "2" ""]
+	ElementArc [0 0 11800 11800 0 360 1000]
+	ElementArc [0 0 13800 13800 0 360 1000]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/C1" "sr-c-470n" 0 0 -3150 -3150 0 100 ""]
+Element["" "KPA" "LED10" "sr-led-red-KPA" 112126 227559 22100 0 3 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[0 0 0 3937 2756 1968 2756 "2" "2" "square"]
+	Pad[11811 0 11811 3937 2756 1968 2756 "1" "1" "square"]
+	ElementLine [0 -3937 15748 -3937 1968]
+	ElementLine [-3937 0 -3937 7874 1968]
+	ElementLine [-3937 7874 15748 7874 1968]
+	ElementLine [15748 -3937 15748 7874 1968]
+	ElementLine [0 -3937 -3937 0 1968]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "S1/C3" "sr-c-470n" 0 0 -3150 -3150 0 100 ""]
+Element["" "1206" "R5" "sr-r-22" 190157 318897 3150 -3150 3 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
+	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
+	ElementLine [3740 -2362 3740 2362 800]
+	ElementLine [-3740 -2362 -3740 2362 800]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-Element(0x00 "SOT262" "S1/U4" "sr-ic-pic10f200" 138 0 3 100 0x00)
+Element["" "SIP1" "CONN2" "sr-con-2211S03G" 248424 234251 11000 -4000 3 100 ""]
 (
-	ElementLine(0 0 0 54 10)
-	ElementArc(0 69 15 15 -90 -180 10)
-	ElementLine(0 85 0 139 10)
-	ElementLine(0 139 118 139 10)
-	ElementLine(118 139 118 0 10)
-	ElementLine(118 0 0 0 10)
-	Pad(20 102
-	       20 118
-			   24 "1" "1" 0x100)
-	Pad(59 102
-	       59 118
-			   24 "2" "2" 0x100)
-	Pad(98 102
-	    98 118
-			   24 "3" "3" 0x100)
-	Pad(98 20
-	       98 36
-			   24 "4" "4" 0x100)
-	Pad(59 20
-	       59 36
-			   24 "5" "5" 0x100)
-	Pad(20 20
-	       20 36
-			   24 "6" "6" 0x100)
-	Mark(20 110)
-)
-Element["" "sr_rx.fp" "U6" "unknown" 65000 30000 -6000 3500 0 100 ""]
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	ElementLine [-5000 0 -5000 0 2000]
+	ElementLine [5000 0 5000 0 2000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementArc [0 0 5000 5000 180 180 2000]
+	ElementArc [0 0 5000 5000 0 180 2000]
+
+	)
+
+Element["" "0805" "C6" "sr-c-2u2" 385826 259449 -6299 -7873 0 100 ""]
 (
-Pin[-5.08mm 0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "3" "edge2"]
-Pin[-2.54mm 0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "2" "edge2"]
-Pin[ 0mm    0mm 2.0mm 0.4mm 2.2mm 1.1mm "" "1" "edge2"]
-ElementLine [-6.38mm -2.8mm 1.3mm -2.8mm 0.2mm]
-ElementLine [-6.38mm -2.8mm -6.38mm 1.3mm 0.2mm]
-ElementLine [-6.38mm  1.3mm 1.3mm 1.3mm 0.2mm]
-ElementLine [1.3mm -2.8mm 1.3mm 1.3mm 0.2mm]
-ElementArc[-2.54mm -2.8mm 2.54mm 1.6mm 0 -180 0.2mm]
+	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-393 -2755 393 -2755 800]
+	ElementLine [-393 2755 393 2755 800]
 
-)
+	)
 
-
-Element(0x00 "SIP1" "CONN2" "sr-con-2211S03G" 160 10 3 100 0x00)
+Element["" "0805" "C7" "sr-c-2u2" 100000 311417 -3151 -10237 0 100 ""]
 (
-	Pin(50 50 60 28 "1" 0x101)
-	
-	ElementLine(  0 50   0 50 20)
-	ElementLine(100 50 100 50 20)
-	ElementLine(  0 100 100 100 10)
-	ElementArc(50  50 50 50 180 180 20)
-	ElementArc(50 50 50 50   0 180 20)
-	Mark(50 50)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R16" "sr-r-1k" 0 0 -3150 -3150 0 100 ""]
+	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "square"]
+	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-393 2755 393 2755 800]
+	ElementLine [-393 -2755 393 -2755 800]
+
+	)
+
+Element["" "0805" "C5" "sr-c-2u2" 353150 476770 -1182 8661 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[-3543 -393 -3543 393 5118 2000 5718 "1" "1" "square"]
+	Pad[3543 -393 3543 393 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-393 -2755 393 -2755 800]
+	ElementLine [-393 2755 393 2755 800]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT89" "U1" "sr-ic-ua78l05" 203 0 3 100 0x00)
+Element["" "sr_0603" "R21" "sr-r-100" 89531 290855 -4885 5422 0 100 ""]
 (
-	ElementLine(0 0 0 207 10)
-	ElementLine(0 207 183 207 10)
-	ElementLine(183 207 183 0 10)
-	ElementLine(183 0 0 0 10)
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
 
-	# 1st pin on pin side
-	Pad(30 152
-	    30 176
-			   37
-			      "1" "1" 0x100)
-	
+	)
 
-	Pad(91 152
-	       91 176
-			   37
-			      "2" "2" 0x100)
-	   
-	 
-	
-
-	# last pin on pin side
-	Pad(152 152
-	    152 176
-			   37
-			      "3" "3" 0x100)
-	
-
-	# extra wide pin on opposite side
-	Pad(121 42
-	    61 42
-			   61 "4" "4" 0x100)
-
-	Mark(30 164)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "0603" "R22" "sr-r-100" 0 0 -3150 -3150 0 100 ""]
+Element["" "sr_0603" "S1/R8" "sr-r-330" 94488 346457 8269 -4174 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-2559 -492
-		-2559 492
-		2952 2000 3552 "1" "1" "square"]
-	    Pad[2559 -492
-		2559 492
-		2952 2000 3552 "2" "2" "square"]
-	 
+	Pad[2917 -484 2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 1508 787 1508 787]
+	ElementLine [-787 -1508 787 -1508 787]
 
-	
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-	
-Element(0x00 "HEADER6_2" "CONN1" "sr-con-826925" 260 0 3 100 0x00)
+Element["" "sr_0603" "R16" "sr-r-1k" 360236 149606 6926 -3452 0 100 ""]
 (
-	Pin(50 50 60 38 "1" 0x101)
-	Pin(150 50 60 38 "2" 0x01)
-	 Pin(50 150 60 38 "3" 0x01)
-	Pin(150 150 60 38 "4" 0x01)
-	 Pin(50 250 60 38 "5" 0x01)
-	Pin(150 250 60 38 "6" 0x01)
-	 
-	ElementLine(0 0 0 300 10)
-	ElementLine(0 300 200 300 10)
-	ElementLine(200 300 200 0 10)
-	ElementLine(200 0 0 0 10)
-	ElementLine(0 100 100 100 10)
-	ElementLine(100 100 100 0 10)
-	Mark(50 50)
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R8" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "R22" "sr-r-100" 368271 82193 0 0 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R7" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "sr_0603" "S1/R4" "sr-r-330" 93468 330225 8018 -2002 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[2917 -484 2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 1508 787 1508 787]
+	ElementLine [-787 -1508 787 -1508 787]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R5" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/D9" "sr-d-mmbz5v6al" 127881 357968 -12300 28717 1 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [2500 -2900 2500 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 11000 2500 11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R1" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/Q1" "sr-fet-p-bss84lt1g" 194373 111577 -11050 16867 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [2500 -2900 2500 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 11000 2500 11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R4" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/D8" "sr-d-mmbz5v6al" 175123 109936 -8835 26748 1 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [2500 -2900 2500 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 11000 2500 11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R2" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "SOT23" "S1/D4" "sr-d-mmbz5v6al" 425271 113873 26079 -12968 3 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R6" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "1206" "S1/F3" "sr-fuse-r50-1206" 20000 140000 -3150 -3150 0 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-# grab the input values and convert to 1/100 mil
-       
-	
-	
-	
-	
-	
-	
-	# how much to grow the pads by for soldermask [1/100 mil]
-	
-	# clearance from planes [1/100 mil]
-	
-	# silk screen width  [1/100 mil]
-	
-	# courtyard silk screen width  [1/100 mil]
-	
-# element_flags, description, pcb-name, value, mark_x, mark_y,
-# text_x, text_y, text_direction, text_scale, text_flags
-Element[0x00000000 "1206" "R3" "sr-r-22" 0 0 -3150 -3150 0 100 ""]
+Element["" "sr_rx.fp" "U6" "unknown" 77323 279685 3500 6000 1 100 ""]
 (
-# 
-# Pad[x1, y1, x2, y2, thickness, clearance, mask, name , pad number, flags]
-	Pad[-5905 -1181
-		-5905 1181
-		5118 2000 5718 "1" "1" "square"]
-	    Pad[5905 -1181
-		5905 1181
-		5118 2000 5718 "2" "2" "square"]
-	 
+	Pin[0 20000 7874 1575 8661 4331 "" "3" ""]
+	Pin[0 10000 7874 1575 8661 4331 "" "2" ""]
+	Pin[0 0 7874 1575 8661 4331 "" "1" ""]
+	ElementLine [-11024 -5118 -11024 25118 787]
+	ElementLine [-11024 25118 5118 25118 787]
+	ElementLine [5118 -5118 5118 25118 787]
+	ElementLine [-11024 -5118 5118 -5118 787]
+	ElementArc [-11024 10000 6299 10000 270 180 787]
 
-	ElementLine[-2362 -3740 2362 -3740 800]
-	    ElementLine[-2362 3740 2362 3740 800]
-	   
+	)
 
-#
-# This draws a 1 mil placement courtyard outline in silk.  It should probably
-# not be included since you wont want to try and fab a 1 mil silk line.  Then
-# again, it is most useful during parts placement.  It really is time for some
-# additional non-fab layers...
-
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-#	ElementLine[eval(-1*V1/2) eval(-1*V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(   V1/2) eval(-1*V2/2) CYW]
-#	ElementLine[eval(   V1/2) eval(   V2/2) eval(-1*V1/2) eval(   V2/2) CYW]
-
-)
-
-        
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-Element[0x00000000 "TQFP32_7" "U2" "unknown" 0 0 -2000 -6000 0 100 0x00000000]
+Element["" "KPA" "LED13" "sr-led-red-KPA" 138110 459843 22100 0 3 100 ""]
 (
+	Pad[0 0 0 3937 2756 1968 2756 "2" "2" "square"]
+	Pad[11811 0 11811 3937 2756 1968 2756 "1" "1" "square"]
+	ElementLine [0 -3937 15748 -3937 1968]
+	ElementLine [-3937 0 -3937 7874 1968]
+	ElementLine [-3937 7874 15748 7874 1968]
+	ElementLine [15748 -3937 15748 7874 1968]
+	ElementLine [0 -3937 -3937 0 1968]
 
-	# left row
+	)
 
-
-
-
-
-	Pad[-20992  -11023  -16566  -11023  1574  3000 1874 "1" "1"  0x00000100]
-	
-	
-
-	Pad[-20992  -7874  -16566  -7874  1574  3000 1874 "2" "2"  0x00000100]
-	
-	
-
-	Pad[-20992  -4724  -16566  -4724  1574  3000 1874 "3" "3"  0x00000100]
-	
-	
-
-	Pad[-20992  -1575  -16566  -1575  1574  3000 1874 "4" "4"  0x00000100]
-	
-	
-
-	Pad[-20992  1575  -16566  1575  1574  3000 1874 "5" "5"  0x00000100]
-	
-	
-
-	Pad[-20992  4725  -16566  4725  1574  3000 1874 "6" "6"  0x00000100]
-	
-	
-
-	Pad[-20992  7874  -16566  7874  1574  3000 1874 "7" "7"  0x00000100]
-	
-	
-
-	Pad[-20992  11024  -16566  11024  1574  3000 1874 "8" "8"  0x00000100]
-	
-	
-
-
-	# bottom row
-
-
-
-
-	Pad[-11023 20992  -11023  16566  1574  3000 1874 "9" "9"  0x00000900]
-	
-	
-
-	Pad[-7874 20992  -7874  16566  1574  3000 1874 "10" "10"  0x00000900]
-	
-	
-
-	Pad[-4724 20992  -4724  16566  1574  3000 1874 "11" "11"  0x00000900]
-	
-	
-
-	Pad[-1575 20992  -1575  16566  1574  3000 1874 "12" "12"  0x00000900]
-	
-	
-
-	Pad[1575 20992  1575  16566  1574  3000 1874 "13" "13"  0x00000900]
-	
-	
-
-	Pad[4725 20992  4725  16566  1574  3000 1874 "14" "14"  0x00000900]
-	
-	
-
-	Pad[7874 20992  7874  16566  1574  3000 1874 "15" "15"  0x00000900]
-	
-	
-
-	Pad[11024 20992  11024  16566  1574  3000 1874 "16" "16"  0x00000900]
-	
-	
-
-
-	# right row
-
-
-
-
-	Pad[20992  11023  16566  11023  1574  3000 1874 "17" "17"  0x00000100]
-	
-	
-
-	Pad[20992  7874  16566  7874  1574  3000 1874 "18" "18"  0x00000100]
-	
-	
-
-	Pad[20992  4724  16566  4724  1574  3000 1874 "19" "19"  0x00000100]
-	
-	
-
-	Pad[20992  1575  16566  1575  1574  3000 1874 "20" "20"  0x00000100]
-	
-	
-
-	Pad[20992  -1575  16566  -1575  1574  3000 1874 "21" "21"  0x00000100]
-	
-	
-
-	Pad[20992  -4725  16566  -4725  1574  3000 1874 "22" "22"  0x00000100]
-	
-	
-
-	Pad[20992  -7874  16566  -7874  1574  3000 1874 "23" "23"  0x00000100]
-	
-	
-
-	Pad[20992  -11024  16566  -11024  1574  3000 1874 "24" "24"  0x00000100]
-	
-	
-
-
-	# top row
-
-
-
-
-	Pad[11023 -20992  11023  -16566  1574  3000 1874 "25" "25"  0x00000900]
-	
-	
-	
-
-	Pad[7874 -20992  7874  -16566  1574  3000 1874 "26" "26"  0x00000900]
-	
-	
-	
-
-	Pad[4724 -20992  4724  -16566  1574  3000 1874 "27" "27"  0x00000900]
-	
-	
-	
-
-	Pad[1575 -20992  1575  -16566  1574  3000 1874 "28" "28"  0x00000900]
-	
-	
-	
-
-	Pad[-1575 -20992  -1575  -16566  1574  3000 1874 "29" "29"  0x00000900]
-	
-	
-	
-
-	Pad[-4725 -20992  -4725  -16566  1574  3000 1874 "30" "30"  0x00000900]
-	
-	
-	
-
-	Pad[-7874 -20992  -7874  -16566  1574  3000 1874 "31" "31"  0x00000900]
-	
-	
-	
-
-	Pad[-11024 -20992  -11024  -16566  1574  3000 1874 "32" "32"  0x00000900]
-	
-	
-	
-
-
-	# exposed paddle (if this is an exposed paddle part) 
-
-
-	# top
-	ElementLine[-10479 -13379 13379 -13379 800]
-	# right
-	ElementLine[13379 -13379 13379 13379 800]
-	# bottom
-	ElementLine[13379 13379 -13379 13379 800]
-	# left
-	ElementLine[-13379 13379 -13379 -10479 800]
-	# angled corner
-	ElementLine[-13379 -10479 -10479 -13379 800]
-
-	ElementArc[-10479 -10479 1000 1000 0 360 800]
-
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT26" "Q2" "sr-fet-RTQ020N03" 138 0 3 100 0x00)
+Element["" "SOT262FET" "Q2" "sr-fet-RTQ020N03" 94525 427965 11800 -11000 3 100 ""]
 (
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 118 139 10)
-	ElementLine(118 139 118 0 10)
-	ElementLine(118 0 0 0 10)
+	Pad[0 -800 0 800 2400 3000 3000 "1" "D" "square,edge2"]
+	Pad[3900 -800 3900 800 2400 3000 3000 "2" "D" "square,edge2"]
+	Pad[7800 -800 7800 800 2400 3000 3000 "3" "G" "square,edge2"]
+	Pad[7800 -9000 7800 -7400 2400 3000 3000 "4" "S" "square"]
+	Pad[3900 -9000 3900 -7400 2400 3000 3000 "5" "D" "square"]
+	Pad[0 -9000 0 -7400 2400 3000 3000 "6" "D" "square"]
+	ElementLine [-2000 -11000 -2000 -5600 1000]
+	ElementLine [-2000 -2500 -2000 2900 1000]
+	ElementLine [-2000 2900 9800 2900 1000]
+	ElementLine [9800 2900 9800 -11000 1000]
+	ElementLine [9800 -11000 -2000 -11000 1000]
+	ElementArc [-2000 -4100 1500 1500 90 180 1000]
 
-	# 1st side, 1st pin
-	Pad(20 102
-	       20 118
-			   24 "1" "1" 0x100)
-	 
-	
+	)
 
-	# 1st side, 2nd pin
-	Pad(59 102
-	       59 118
-			   24 "2" "2" 0x100)
-	   
-	 
-
-	# 1st side, 3rd pin
-	Pad(98 102
-	    98 118
-			   24 "3" "3" 0x100)
-	
-
-	# 2nd side, 3rd pin
-	Pad(98 20
-	       98 36
-			   24 "4" "4" 0x100)
-	   
-	 
-
-	# 2nd side, 2nd pin
-	Pad(59 20
-	       59 36
-			   24 "5" "5" 0x100)
-	   
-	 
-
-	# 2nd side, 1st pin
-	Pad(20 20
-	       20 36
-			   24 "6" "6" 0x100)
-	 
-
-	Mark(20 110)
-)
-                             # 78 for SOT23
-	                             # 82 for SOT23
-	      # 41 for SOT23
-	               # 34 for SOT23, 24 for SOT25
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-Element(0x00 "SOT26" "Q1" "sr-fet-RTQ020N03" 138 0 3 100 0x00)
+Element["" "LED5" "LED8" "sr-ic-tsop2236" 92520 451693 7000 -10000 1 100 ""]
 (
-	ElementLine(0 0 0 139 10)
-	ElementLine(0 139 118 139 10)
-	ElementLine(118 139 118 0 10)
-	ElementLine(118 0 0 0 10)
+	Pin[0 5000 6500 3000 7100 4300 "1" "1" "square"]
+	Pin[0 -5000 6500 3000 7100 4300 "2" "2" ""]
+	ElementArc [0 0 11800 11800 90 360 1000]
+	ElementArc [0 0 13800 13800 90 360 1000]
 
-	# 1st side, 1st pin
-	Pad(20 102
-	       20 118
-			   24 "1" "1" 0x100)
-	 
-	
+	)
 
-	# 1st side, 2nd pin
-	Pad(59 102
-	       59 118
-			   24 "2" "2" 0x100)
-	   
-	 
+Element["" "SIP1" "CONN5" "sr-con-2211S03G" 277952 263779 11000 -4000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	ElementLine [-5000 0 -5000 0 2000]
+	ElementLine [5000 0 5000 0 2000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementArc [0 0 5000 5000 180 180 2000]
+	ElementArc [0 0 5000 5000 0 180 2000]
 
-	# 1st side, 3rd pin
-	Pad(98 102
-	    98 118
-			   24 "3" "3" 0x100)
-	
+	)
 
-	# 2nd side, 3rd pin
-	Pad(98 20
-	       98 36
-			   24 "4" "4" 0x100)
-	   
-	 
+Element["" "SOT223" "S1/U1" "sr-ic-ld1117s33" 200618 437785 25300 -32900 3 100 ""]
+(
+	Pad[0 -3300 0 3300 5600 3000 6200 "1" "1" "square,edge2"]
+	Pad[9000 -3300 9000 3300 5600 3000 6200 "2" "2" "square,edge2"]
+	Pad[18100 -3300 18100 3300 5600 3000 6200 "3" "3" "square,edge2"]
+	Pad[4500 -24400 13500 -24400 12200 3000 12800 "4" "4" "square"]
+	ElementLine [-5200 -32900 -5200 8500 1000]
+	ElementLine [-5200 8500 23300 8500 1000]
+	ElementLine [23300 8500 23300 -32900 1000]
+	ElementLine [23300 -32900 -5200 -32900 1000]
 
-	# 2nd side, 2nd pin
-	Pad(59 20
-	       59 36
-			   24 "5" "5" 0x100)
-	   
-	 
+	)
 
-	# 2nd side, 1st pin
-	Pad(20 20
-	       20 36
-			   24 "6" "6" 0x100)
-	 
+Element["" "JUMPER5" "S1/J3" "sr-cn-header5" 206771 484251 -5000 -11000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "4" "4" "edge2"]
+	Pin[40000 0 6000 3000 6600 3800 "5" "5" "edge2"]
+	ElementLine [-5000 5000 45000 5000 1000]
+	ElementLine [45000 -5000 45000 5000 1000]
+	ElementLine [-5000 -5000 45000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
 
-	Mark(20 110)
-)
+	)
+
+Element["" "SW" "S2" "unknown" 325590 416535 -2000 -6000 0 100 ""]
+(
+	Pad[0 0 0 2756 5512 1968 3543 "3" "2" "square"]
+	Pad[17717 0 17717 2756 5512 1968 3543 "1" "1" "square"]
+	Pad[0 35827 0 38583 5512 1968 3543 "3" "2" "square,edge2"]
+	Pad[17717 35827 17717 38583 5512 1968 3543 "1" "1" "square,edge2"]
+	ElementLine [-3937 -3937 -3937 43307 1968]
+	ElementLine [-3937 -3937 21654 -3937 1968]
+	ElementLine [21654 -3937 21654 43307 1968]
+	ElementLine [-3937 43307 21654 43307 1968]
+
+	)
+
+Element["" "sr_0603" "R20" "sr-r-100" 402917 255421 -7955 5997 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "PLCC2" "LED14" "sr-led-green-plcc2" 411765 295424 22100 0 3 100 ""]
+(
+	Pad[-5860 -2118 -5860 2118 6000 2000 6600 "2" "2" "square"]
+	Pad[5860 -2118 5860 2118 6000 2000 6600 "1" "1" "square"]
+	ElementLine [-6690 -3900 -6690 5900 1000]
+	ElementLine [-6690 5900 6690 5900 1000]
+	ElementLine [6690 5900 6690 -5900 1000]
+	ElementLine [6690 -5900 -4690 -5900 1000]
+	ElementLine [-6690 -3900 -4690 -5900 1000]
+	ElementArc [0 0 4000 4000 0 360 1000]
+
+	)
+
+Element["" "sr_0603" "R17" "sr-r-100" 330082 465050 -5834 4937 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_rx" "U4" "unknown" 319764 482519 6000 -3500 2 100 ""]
+(
+	Pin[20000 0 7874 1575 8661 4331 "" "3" "edge2"]
+	Pin[10000 0 7874 1575 8661 4331 "" "2" "edge2"]
+	Pin[0 0 7874 1575 8661 4331 "" "1" "edge2"]
+	ElementLine [-5118 11024 25118 11024 787]
+	ElementLine [25118 -5118 25118 11024 787]
+	ElementLine [-5118 -5118 25118 -5118 787]
+	ElementLine [-5118 -5118 -5118 11024 787]
+	ElementArc [10000 11024 10000 6299 0 180 787]
+
+	)
+
+Element["" "LED5" "LED5" "sr-ic-tsop2236" 270985 480314 -10000 -7000 2 100 ""]
+(
+	Pin[5000 0 6500 3000 7100 4300 "1" "1" "square,edge2"]
+	Pin[-5000 0 6500 3000 7100 4300 "2" "2" "edge2"]
+	ElementArc [0 0 11800 11800 180 360 1000]
+	ElementArc [0 0 13800 13800 180 360 1000]
+
+	)
+
+Element["" "sr_rx" "U5" "unknown" 415117 268267 -3500 -6000 3 100 ""]
+(
+	Pin[0 -20000 7874 1575 8661 4331 "" "3" ""]
+	Pin[0 -10000 7874 1575 8661 4331 "" "2" ""]
+	Pin[0 0 7874 1575 8661 4331 "" "1" ""]
+	ElementLine [11024 -25118 11024 5118 787]
+	ElementLine [-5118 -25118 11024 -25118 787]
+	ElementLine [-5118 -25118 -5118 5118 787]
+	ElementLine [-5118 5118 11024 5118 787]
+	ElementArc [11024 -10000 6299 10000 90 180 787]
+
+	)
+
+Element["" "RCY200P" "C2" "sr-c-1m" 191101 284016 30000 -20000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3000 "1" "1" "square,edge2"]
+	Pin[20000 0 6000 3000 6600 3000 "2" "2" "edge2"]
+	ElementLine [-16000 0 -12000 0 1000]
+	ElementLine [-14000 -2000 -14000 2000 1000]
+	ElementLine [32000 0 36000 0 1000]
+	ElementArc [10000 0 20000 20000 0 360 1000]
+
+	)
+
+Element["" "SOT262" "S1/U4" "sr-ic-pic10f200" 374483 340076 11800 -11000 3 100 ""]
+(
+	Pad[0 -800 0 800 2400 3000 3000 "1" "1" "square,edge2"]
+	Pad[3900 -800 3900 800 2400 3000 3000 "2" "2" "square,edge2"]
+	Pad[7800 -800 7800 800 2400 3000 3000 "3" "3" "square,edge2"]
+	Pad[7800 -9000 7800 -7400 2400 3000 3000 "4" "4" "square"]
+	Pad[3900 -9000 3900 -7400 2400 3000 3000 "5" "5" "square"]
+	Pad[0 -9000 0 -7400 2400 3000 3000 "6" "6" "square"]
+	ElementLine [-2000 -11000 -2000 -5600 1000]
+	ElementLine [-2000 -2500 -2000 2900 1000]
+	ElementLine [-2000 2900 9800 2900 1000]
+	ElementLine [9800 2900 9800 -11000 1000]
+	ElementLine [9800 -11000 -2000 -11000 1000]
+	ElementArc [-2000 -4100 1500 1500 90 180 1000]
+
+	)
+
+Element["" "sr_0603" "C3" "sr-c-10n" 388673 418270 -3937 0 3 100 ""]
+(
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [1508 -787 1508 787 787]
+	ElementLine [-1508 -787 -1508 787 787]
+
+	)
+
+Element["" "SIP1" "CONN4" "sr-con-2211S03G" 277952 234251 11000 -4000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	ElementLine [-5000 0 -5000 0 2000]
+	ElementLine [5000 0 5000 0 2000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementArc [0 0 5000 5000 180 180 2000]
+	ElementArc [0 0 5000 5000 0 180 2000]
+
+	)
+
+Element["" "SOT89" "U1" "sr-ic-ua78l05" 248036 284208 16400 17300 2 100 ""]
+(
+	Pad[-1200 0 1200 0 3700 3000 4300 "1" "1" "square"]
+	Pad[-1200 6100 1200 6100 3700 3000 4300 "2" "2" "square"]
+	Pad[-1200 12200 1200 12200 3700 3000 4300 "3" "3" "square"]
+	Pad[12200 3100 12200 9100 6100 3000 6700 "4" "4" "square"]
+	ElementLine [-4300 -3000 16400 -3000 1000]
+	ElementLine [-4300 -3000 -4300 15300 1000]
+	ElementLine [-4300 15300 16400 15300 1000]
+	ElementLine [16400 -3000 16400 15300 1000]
+
+	)
+
+Element["" "SIP1" "CONN3" "sr-con-2211S03G" 248424 263779 11000 -4000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 2800 "1" "1" "square"]
+	ElementLine [-5000 0 -5000 0 2000]
+	ElementLine [5000 0 5000 0 2000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementArc [0 0 5000 5000 180 180 2000]
+	ElementArc [0 0 5000 5000 0 180 2000]
+
+	)
+
+Element["" "RCY200P" "C1" "sr-c-1m" 192992 242125 30000 -20000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3000 "1" "1" "square,edge2"]
+	Pin[20000 0 6000 3000 6600 3000 "2" "2" "edge2"]
+	ElementLine [-16000 0 -12000 0 1000]
+	ElementLine [-14000 -2000 -14000 2000 1000]
+	ElementLine [32000 0 36000 0 1000]
+	ElementArc [10000 0 20000 20000 0 360 1000]
+
+	)
+
+Element["" "sr_0603" "R18" "sr-r-330" 185433 379920 6266 -2433 0 100 ""]
+(
+	Pad[2917 -484 2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 1508 787 1508 787]
+	ElementLine [-787 -1508 787 -1508 787]
+
+	)
+
+Element["" "sr_0603" "R19" "sr-r-330" 185433 372046 5977 -1000 0 100 ""]
+(
+	Pad[2917 -484 2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 1508 787 1508 787]
+	ElementLine [-787 -1508 787 -1508 787]
+
+	)
+
+Element["" "8P8C" "S1/S/J2" "sr-cn-8p8c" 418267 372914 5000 0 2 100 ""]
+(
+	Pin[-10000 -35000 6000 2000 7000 3500 "" "8" ""]
+	Pin[0 -30000 6000 2000 7000 3500 "" "7" ""]
+	Pin[-10000 -15000 6000 2000 7000 3500 "" "4" ""]
+	Pin[0 -10000 6000 2000 7000 3500 "" "3" ""]
+	Pin[0 -20000 6000 2000 7000 3500 "" "5" ""]
+	Pin[0 0 6000 2000 7000 3500 "" "1" "square"]
+	Pin[-10000 -5000 6000 2000 7000 3500 "" "2" ""]
+	Pin[-10000 -25000 6000 2000 7000 3500 "" "6" ""]
+	Pin[25000 5000 12800 2000 12800 12800 "" "" "hole"]
+	Pin[25000 -40000 12800 2000 12800 12800 "" "" "hole"]
+	ElementLine [-15000 -49500 39775 -49500 1000]
+	ElementLine [-15000 -49500 -15000 14500 1000]
+	ElementLine [-15000 14500 39775 14500 1000]
+
+	)
+
+Element["" "sr_0603" "R103" "sr-r-100k" 241499 195365 -6854 -8358 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "JUMPER4" "J100" "sr-cn-header4" 236298 210629 -5000 -11000 0 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[30000 0 6000 3000 6600 3800 "4" "4" "edge2"]
+	ElementLine [-5000 5000 35000 5000 1000]
+	ElementLine [35000 -5000 35000 5000 1000]
+	ElementLine [-5000 -5000 35000 -5000 1000]
+	ElementLine [-5000 -5000 -5000 5000 1000]
+	ElementLine [5000 -5000 5000 5000 1000]
+	ElementLine [-5000 -5000 5000 -5000 1000]
+
+	)
+
+Element["" "TSSOP28" "U2" "unknown" 270078 375983 -2000 -6000 0 100 ""]
+(
+	Pad[-13917 -16633 -9311 -16633 1299 1000 2299 "1" "1" "square"]
+	Pad[-13917 -14074 -9311 -14074 1299 1000 2299 "2" "2" "square"]
+	Pad[-13917 -11515 -9311 -11515 1299 1000 2299 "3" "3" "square"]
+	Pad[-13917 -8956 -9311 -8956 1299 1000 2299 "4" "4" "square"]
+	Pad[-13917 -6397 -9311 -6397 1299 1000 2299 "5" "5" "square"]
+	Pad[-13917 -3838 -9311 -3838 1299 1000 2299 "6" "6" "square"]
+	Pad[-13917 -1279 -9311 -1279 1299 1000 2299 "7" "7" "square"]
+	Pad[-13917 1279 -9311 1279 1299 1000 2299 "8" "8" "square"]
+	Pad[-13917 3838 -9311 3838 1299 1000 2299 "9" "9" "square"]
+	Pad[-13917 6397 -9311 6397 1299 1000 2299 "10" "10" "square"]
+	Pad[-13917 8956 -9311 8956 1299 1000 2299 "11" "11" "square"]
+	Pad[-13917 11515 -9311 11515 1299 1000 2299 "12" "12" "square"]
+	Pad[-13917 14074 -9311 14074 1299 1000 2299 "13" "13" "square"]
+	Pad[-13917 16633 -9311 16633 1299 1000 2299 "14" "14" "square"]
+	Pad[9311 16633 13917 16633 1299 1000 2299 "15" "15" "square,edge2"]
+	Pad[9311 14074 13917 14074 1299 1000 2299 "16" "16" "square,edge2"]
+	Pad[9311 11515 13917 11515 1299 1000 2299 "17" "17" "square,edge2"]
+	Pad[9311 8956 13917 8956 1299 1000 2299 "18" "18" "square,edge2"]
+	Pad[9311 6397 13917 6397 1299 1000 2299 "19" "19" "square,edge2"]
+	Pad[9311 3838 13917 3838 1299 1000 2299 "20" "20" "square,edge2"]
+	Pad[9311 1279 13917 1279 1299 1000 2299 "21" "21" "square,edge2"]
+	Pad[9311 -1279 13917 -1279 1299 1000 2299 "22" "22" "square,edge2"]
+	Pad[9311 -3838 13917 -3838 1299 1000 2299 "23" "23" "square,edge2"]
+	Pad[9311 -6397 13917 -6397 1299 1000 2299 "24" "24" "square,edge2"]
+	Pad[9311 -8956 13917 -8956 1299 1000 2299 "25" "25" "square,edge2"]
+	Pad[9311 -11515 13917 -11515 1299 1000 2299 "26" "26" "square,edge2"]
+	Pad[9311 -14074 13917 -14074 1299 1000 2299 "27" "27" "square,edge2"]
+	Pad[9311 -16633 13917 -16633 1299 1000 2299 "28" "28" "square,edge2"]
+	ElementLine [-15566 -18283 -15566 18283 1000]
+	ElementLine [-15566 18283 15566 18283 1000]
+	ElementLine [15566 18283 15566 -18283 1000]
+	ElementLine [-15566 -18283 -2500 -18283 1000]
+	ElementLine [15566 -18283 2500 -18283 1000]
+	ElementArc [0 -18283 2500 2500 0 180 1000]
+
+	)
+
+Element["" "sr_0603_led" "LED15" "unknown" 408822 309538 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [787 -1181 787 1181 787]
+	ElementLine [-787 0 787 1181 787]
+	ElementLine [-787 0 787 -1181 787]
+	ElementLine [-787 0 787 0 787]
+
+	)
+
+Element["" "LED5" "LED9" "sr-ic-tsop2236" 200276 206692 10000 7000 0 100 ""]
+(
+	Pin[-5000 0 6500 3000 7100 4300 "1" "1" "square"]
+	Pin[5000 0 6500 3000 7100 4300 "2" "2" ""]
+	ElementArc [0 0 11800 11800 0 360 1000]
+	ElementArc [0 0 13800 13800 0 360 1000]
+
+	)
+
+Element["" "1206" "R12" "sr-r-22" 183464 363385 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "R11" "sr-r-22" 183464 355117 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "SOT262FET" "Q1" "sr-fet-RTQ020N03" 401894 411890 4200 3399 0 100 ""]
+(
+	Pad[0 -800 0 800 2400 3000 3000 "1" "D" "square"]
+	Pad[-3900 -800 -3900 800 2400 3000 3000 "2" "D" "square"]
+	Pad[-7800 -800 -7800 800 2400 3000 3000 "3" "G" "square"]
+	Pad[-7800 7400 -7800 9000 2400 3000 3000 "4" "S" "square,edge2"]
+	Pad[-3900 7400 -3900 9000 2400 3000 3000 "5" "D" "square,edge2"]
+	Pad[0 7400 0 9000 2400 3000 3000 "6" "D" "square,edge2"]
+	ElementLine [2000 5600 2000 11000 1000]
+	ElementLine [2000 -2900 2000 2500 1000]
+	ElementLine [-9800 -2900 2000 -2900 1000]
+	ElementLine [-9800 -2900 -9800 11000 1000]
+	ElementLine [-9800 11000 2000 11000 1000]
+	ElementArc [2000 4100 1500 1500 270 180 1000]
+
+	)
+
+Element["" "sr_0603" "C4" "sr-c-10n" 321260 368109 -10791 -485 0 100 ""]
+(
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [1508 -787 1508 787 787]
+	ElementLine [-1508 -787 -1508 787 787]
+
+	)
+
+Element["" "SOD80" "D1" "sr-d-ll4448" 338976 364172 -11600 0 1 100 ""]
+(
+	Pad[5800 -1600 5800 1600 5300 2000 5900 "1" "1" "square"]
+	Pad[-5800 -1600 -5800 1600 5300 2000 5900 "2" "2" "square"]
+	ElementLine [10600 -4300 10600 4300 2000]
+	ElementLine [10600 -4300 8000 -5500 1000]
+	ElementLine [-9600 -5500 8000 -5500 1000]
+	ElementLine [-9600 -5500 -9600 5500 1000]
+	ElementLine [-9600 5500 8000 5500 1000]
+	ElementLine [8000 5500 10600 4300 1000]
+
+	)
+
+Element["" "1206" "R8" "sr-r-22" 213779 318897 -2755 -1969 0 100 ""]
+(
+	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
+	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
+	ElementLine [3740 -2362 3740 2362 800]
+	ElementLine [-3740 -2362 -3740 2362 800]
+
+	)
+
+Element["" "1206" "R6" "sr-r-22" 198031 318897 3150 -3150 3 100 ""]
+(
+	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
+	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
+	ElementLine [3740 -2362 3740 2362 800]
+	ElementLine [-3740 -2362 -3740 2362 800]
+
+	)
+
+Element["" "1206" "R7" "sr-r-22" 205905 318897 3150 -3150 3 100 ""]
+(
+	Pad[-1181 -5905 1181 -5905 5118 2000 5718 "1" "1" "square"]
+	Pad[-1181 5905 1181 5905 5118 2000 5718 "2" "2" "square"]
+	ElementLine [3740 -2362 3740 2362 800]
+	ElementLine [-3740 -2362 -3740 2362 800]
+
+	)
+
+Element["" "SO8" "U3" "sr-ic-TS555CD" 338109 385196 -2000 -6000 0 100 ""]
+(
+	Pad[-13500 -7500 -7000 -7500 2000 1000 3000 "1" "1" "square"]
+	Pad[-13500 -2500 -7000 -2500 2000 1000 3000 "2" "2" "square"]
+	Pad[-13500 2500 -7000 2500 2000 1000 3000 "3" "3" "square"]
+	Pad[-13500 7500 -7000 7500 2000 1000 3000 "4" "4" "square"]
+	Pad[7000 7500 13500 7500 2000 1000 3000 "5" "5" "square,edge2"]
+	Pad[7000 2500 13500 2500 2000 1000 3000 "6" "6" "square,edge2"]
+	Pad[7000 -2500 13500 -2500 2000 1000 3000 "7" "7" "square,edge2"]
+	Pad[7000 -7500 13500 -7500 2000 1000 3000 "8" "8" "square,edge2"]
+	ElementLine [-15500 -9500 -15500 9500 1000]
+	ElementLine [-15500 9500 15500 9500 1000]
+	ElementLine [15500 9500 15500 -9500 1000]
+	ElementLine [-15500 -9500 -2500 -9500 1000]
+	ElementLine [15500 -9500 2500 -9500 1000]
+	ElementArc [0 -9500 2500 2500 0 180 1000]
+
+	)
+
+Element["" "KPA" "LED12" "sr-led-red-KPA" 423465 446062 22100 0 3 100 ""]
+(
+	Pad[0 0 0 3937 2756 1968 2756 "2" "2" "square"]
+	Pad[11811 0 11811 3937 2756 1968 2756 "1" "1" "square"]
+	ElementLine [0 -3937 15748 -3937 1968]
+	ElementLine [-3937 0 -3937 7874 1968]
+	ElementLine [-3937 7874 15748 7874 1968]
+	ElementLine [15748 -3937 15748 7874 1968]
+	ElementLine [0 -3937 -3937 0 1968]
+
+	)
+
+Element["" "KPA" "LED11" "sr-led-red-KPA" 370472 228345 22100 0 3 100 ""]
+(
+	Pad[0 0 0 3937 2756 1968 2756 "2" "2" "square"]
+	Pad[11811 0 11811 3937 2756 1968 2756 "1" "1" "square"]
+	ElementLine [0 -3937 15748 -3937 1968]
+	ElementLine [-3937 0 -3937 7874 1968]
+	ElementLine [-3937 7874 15748 7874 1968]
+	ElementLine [15748 -3937 15748 7874 1968]
+	ElementLine [0 -3937 -3937 0 1968]
+
+	)
+
+Element["" "LED5" "LED2" "sr-ic-tsop2236" 396968 476377 -10000 -7000 2 100 ""]
+(
+	Pin[5000 0 6500 3000 7100 4300 "1" "1" "square,edge2"]
+	Pin[-5000 0 6500 3000 7100 4300 "2" "2" "edge2"]
+	ElementArc [0 0 11800 11800 180 360 1000]
+	ElementArc [0 0 13800 13800 180 360 1000]
+
+	)
+
+Element["" "LED5" "LED1" "sr-ic-tsop2236" 312481 216534 13937 -14653 0 100 ""]
+(
+	Pin[-5000 0 6500 3000 7100 4300 "1" "1" "square"]
+	Pin[5000 0 6500 3000 7100 4300 "2" "2" ""]
+	ElementArc [0 0 11800 11800 0 360 1000]
+	ElementArc [0 0 13800 13800 0 360 1000]
+
+	)
+
+Element["" "LED5" "LED4" "sr-ic-tsop2236" 454055 293306 10000 7000 0 100 ""]
+(
+	Pin[-5000 0 6500 3000 7100 4300 "1" "1" "square"]
+	Pin[5000 0 6500 3000 7100 4300 "2" "2" ""]
+	ElementArc [0 0 11800 11800 0 360 1000]
+	ElementArc [0 0 13800 13800 0 360 1000]
+
+	)
+
+Element["" "LED5" "LED7" "sr-ic-tsop2236" 466023 442912 -10000 -7000 2 100 ""]
+(
+	Pin[5000 0 6500 3000 7100 4300 "1" "1" "square,edge2"]
+	Pin[-5000 0 6500 3000 7100 4300 "2" "2" "edge2"]
+	ElementArc [0 0 11800 11800 180 360 1000]
+	ElementArc [0 0 13800 13800 180 360 1000]
+
+	)
+
+Element["" "SOT262FET" "Q4" "sr-fet-RTQ020N03" 337082 254735 11800 -11000 3 100 ""]
+(
+	Pad[0 -800 0 800 2400 3000 3000 "1" "D" "square,edge2"]
+	Pad[3900 -800 3900 800 2400 3000 3000 "2" "D" "square,edge2"]
+	Pad[7800 -800 7800 800 2400 3000 3000 "3" "G" "square,edge2"]
+	Pad[7800 -9000 7800 -7400 2400 3000 3000 "4" "S" "square"]
+	Pad[3900 -9000 3900 -7400 2400 3000 3000 "5" "D" "square"]
+	Pad[0 -9000 0 -7400 2400 3000 3000 "6" "D" "square"]
+	ElementLine [-2000 -11000 -2000 -5600 1000]
+	ElementLine [-2000 -2500 -2000 2900 1000]
+	ElementLine [-2000 2900 9800 2900 1000]
+	ElementLine [9800 2900 9800 -11000 1000]
+	ElementLine [9800 -11000 -2000 -11000 1000]
+	ElementArc [-2000 -4100 1500 1500 90 180 1000]
+
+	)
+
+Element["" "sr_0603" "R13" "sr-r-2k4" 358661 377952 4572 -2452 0 100 ""]
+(
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [1508 -787 1508 787 787]
+	ElementLine [-1508 -787 -1508 787 787]
+
+	)
+
+Element["" "sr_0603" "R15" "sr-r-560" 358661 389763 -1968 -9842 3 100 ""]
+(
+	Pad[-484 -2917 484 -2917 2831 1968 3815 "2" "2" "square"]
+	Pad[-484 2917 484 2917 2831 1968 3815 "1" "1" "square"]
+	ElementLine [1508 -787 1508 787 787]
+	ElementLine [-1508 -787 -1508 787 787]
+
+	)
+
+Element["" "1206" "R9" "sr-r-22" 183464 337401 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "R10" "sr-r-22" 183464 345668 -3150 -3150 0 100 ""]
+(
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 -3740 2362 -3740 800]
+	ElementLine [-2362 3740 2362 3740 800]
+
+	)
+
+Element["" "1206" "R3" "sr-r-22" 226772 345275 3150 3150 2 100 ""]
+(
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "1" "1" "square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "2" "2" "square"]
+	ElementLine [-2362 3740 2362 3740 800]
+	ElementLine [-2362 -3740 2362 -3740 800]
+
+	)
+
+Element["" "sr_0603" "S1/R2" "sr-r-10k" 339531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "S1/R1" "sr-r-10k" 319531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "S1/C4" "sr-c-100n" 299531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "S1/C6" "sr-c-100n" 279531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "S1/R3" "sr-r-1k" 259531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "S1/C1" "sr-c-470n" 239531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+
+Element["" "sr_0603" "S1/C3" "sr-c-470n" 209531 48729 0 0 0 100 ""]
+(
+	Pad[-2917 -484 -2917 484 2831 1968 3815 "2" "2" "square"]
+	Pad[2917 -484 2917 484 2831 1968 3815 "1" "1" "square"]
+	ElementLine [-787 -1508 787 -1508 787]
+	ElementLine [-787 1508 787 1508 787]
+
+	)
+Rat[277952 234251 1 256161 361909 0  ""]
+Rat[256161 361909 0 351609 377696 0  ""]
+Rat[351609 377696 0 358177 375035 0  ""]
+Rat[248424 263779 1 246836 284208 0  ""]
+Rat[246836 284208 0 92448 290371 0  ""]
+Rat[248424 263779 1 405834 254937 0  ""]
+Rat[405834 254937 0 365354 81709 0  ""]
+Rat[246836 284208 0 332999 464566 0  ""]
+Rat[192992 242125 1 191101 284016 1  ""]
+Rat[191101 284016 1 188976 324802 0  ""]
+Rat[188976 324802 0 196850 324802 0  ""]
+Rat[196850 324802 0 204724 324802 0  ""]
+Rat[204724 324802 0 212598 324802 0  ""]
+Rat[188976 324802 0 189369 336220 0  ""]
+Rat[189369 336220 0 189369 344487 0  ""]
+Rat[189369 344487 0 189369 353936 0  ""]
+Rat[189369 353936 0 189369 362204 0  ""]
+Rat[189369 362204 0 188350 371562 0  ""]
+Rat[188350 371562 0 188350 379436 0  ""]
+Rat[212598 324802 0 220867 334645 0  ""]
+Rat[220867 334645 0 220867 344094 0  ""]
+Rat[220867 344094 0 220867 352361 0  ""]
+Rat[220867 352361 0 220867 361810 0  ""]
+Rat[212598 324802 0 246836 296408 0  ""]
+Rat[192992 242125 1 248424 234251 1  ""]
+Rat[188350 379436 0 218718 441085 0  ""]
+Rat[189369 353936 0 79370 352716 1  ""]
+Rat[79370 352716 1 69370 347716 1  ""]
+Rat[246836 296408 0 408267 357914 1  ""]
+Rat[408267 357914 1 418267 362914 1  ""]
+Rat[248424 234251 1 236614 48245 0  ""]
+Rat[236614 48245 0 452089 81027 0  ""]
+Rat[212992 242125 1 211101 284016 1  ""]
+Rat[211101 284016 1 246836 290308 0  ""]
+Rat[246836 290308 0 277952 263779 1  ""]
+Rat[277952 263779 1 266298 210629 1  ""]
+Rat[277952 263779 1 344882 245735 0  ""]
+Rat[344882 245735 0 382283 259056 0  ""]
+Rat[382283 259056 0 415117 248267 1  ""]
+Rat[382283 259056 0 405905 293306 0  ""]
+Rat[405905 293306 0 405905 309054 0  ""]
+Rat[405905 309054 0 408267 347914 1  ""]
+Rat[408267 347914 1 418267 352914 1  ""]
+Rat[408267 347914 1 378383 340876 0  ""]
+Rat[378383 340876 0 320776 371026 0  ""]
+Rat[320776 371026 0 324609 377696 0  ""]
+Rat[324609 377696 0 343307 416535 0  ""]
+Rat[343307 416535 0 343307 455118 0  ""]
+Rat[343307 455118 0 349607 476377 0  ""]
+Rat[349607 476377 0 339764 482519 1  ""]
+Rat[343307 416535 0 388189 421187 0  ""]
+Rat[388189 421187 0 394094 420890 0  ""]
+Rat[320776 371026 0 256161 367027 0  ""]
+Rat[266298 210629 1 285362 130922 0  ""]
+Rat[285362 130922 0 240158 127559 0  ""]
+Rat[240158 127559 0 240158 122047 0  ""]
+Rat[240158 122047 0 171223 118436 0  ""]
+Rat[171223 118436 0 141732 127953 0  ""]
+Rat[171223 118436 0 146457 49607 0  ""]
+Rat[146457 49607 0 212448 48245 0  ""]
+Rat[212448 48245 0 242448 48245 0  ""]
+Rat[242448 48245 0 256614 48245 0  ""]
+Rat[256614 48245 0 276614 48245 0  ""]
+Rat[276614 48245 0 296614 48245 0  ""]
+Rat[211101 284016 1 127916 279201 0  ""]
+Rat[127916 279201 0 103543 311024 0  ""]
+Rat[103543 311024 0 77323 299685 1  ""]
+Rat[103543 311024 0 104725 348817 0  ""]
+Rat[104725 348817 0 108230 366468 0  ""]
+Rat[108230 366468 0 123981 366468 0  ""]
+Rat[104725 348817 0 79370 362716 1  ""]
+Rat[79370 362716 1 69370 357716 1  ""]
+Rat[108230 366468 0 102325 418965 0  ""]
+Rat[256161 367027 0 200618 441085 0  ""]
+Rat[200618 441085 0 226771 484251 1  ""]
+Rat[415117 248267 1 429171 105373 0  ""]
+Rat[429171 105373 0 448189 89827 0  ""]
+Rat[448189 89827 0 443900 51500 0  ""]
+Rat[336614 48245 0 283995 384939 0  ""]
+Rat[316614 48245 0 256161 377262 0  ""]
+Rat[279528 130922 0 256161 390057 0  ""]
+Rat[256161 390057 0 324609 392696 0  ""]
+Rat[357319 149122 0 415117 268267 1  ""]
+Rat[415117 268267 1 319764 482519 1  ""]
+Rat[357319 149122 0 77323 279685 1  ""]
+Rat[433071 114173 0 545905 58819 0  ""]
+Rat[433071 114173 0 145632 119153 0  ""]
+Rat[145632 119153 0 132559 346258 0  ""]
+Rat[132559 346258 0 104725 343699 0  ""]
+Rat[534095 58819 0 418267 342914 1  ""]
+Rat[418267 342914 1 69370 367716 1  ""]
+Rat[425271 114173 0 565905 58819 0  ""]
+Rat[425271 114173 0 137832 119153 0  ""]
+Rat[137832 119153 0 132559 343699 0  ""]
+Rat[132559 343699 0 104725 346258 0  ""]
+Rat[554095 58819 0 408267 337914 1  ""]
+Rat[408267 337914 1 79370 372716 1  ""]
+Rat[246771 484251 1 382283 340876 0  ""]
+Rat[382283 340876 0 342448 48245 0  ""]
+Rat[236771 484251 1 374483 340876 0  ""]
+Rat[374483 340876 0 322448 48245 0  ""]
+Rat[282448 48245 0 44200 58400 0  ""]
+Rat[282448 48245 0 378383 331076 0  ""]
+Rat[378383 331076 0 216771 484251 1  ""]
+Rat[104330 357668 0 127881 357668 0  ""]
+Rat[104330 357668 0 104725 333464 0  ""]
+Rat[104725 333464 0 96385 329741 0  ""]
+Rat[90551 329741 0 90067 335666 0  ""]
+Rat[90067 335666 0 69370 337716 1  ""]
+Rat[112130 357668 0 120081 357668 0  ""]
+Rat[112130 357668 0 97405 345973 0  ""]
+Rat[97405 345973 0 104725 330905 0  ""]
+Rat[90067 341500 0 91571 345973 0  ""]
+Rat[90067 341500 0 79370 342716 1  ""]
+Rat[447800 60300 0 175123 109636 0  ""]
+Rat[175123 109636 0 25905 138819 0  ""]
+Rat[25905 138819 0 132559 336023 0  ""]
+Rat[14095 138819 0 418267 372914 1  ""]
+Rat[440000 60300 0 167323 109636 0  ""]
+Rat[167323 109636 0 49999 115197 0  ""]
+Rat[167323 109636 0 132559 338582 0  ""]
+Rat[38189 115197 0 408267 367914 1  ""]
+Rat[132559 333464 0 382283 331076 0  ""]
+Rat[145355 389764 0 104725 336023 0  ""]
+Rat[104725 336023 0 194373 111277 0  ""]
+Rat[224410 122047 0 167083 49516 0  ""]
+Rat[224410 127559 0 187083 49516 0  ""]
+Rat[190473 120077 0 192917 49516 0  ""]
+Rat[156955 389764 0 206771 484251 1  ""]
+Rat[206771 484251 1 374483 331076 0  ""]
+Rat[374483 331076 0 262448 48245 0  ""]
+Rat[344882 255535 0 256161 387498 0  ""]
+Rat[394094 411090 0 324609 387696 0  ""]
+Rat[324609 387696 0 127916 289001 0  ""]
+Rat[127916 289001 0 102325 428765 0  ""]
+Rat[132559 341140 0 283995 387498 0  ""]
+Rat[461023 442912 1 401894 420890 0  ""]
+Rat[401894 420890 0 397994 420890 0  ""]
+Rat[401894 420890 0 401894 411090 0  ""]
+Rat[401894 411090 0 397994 411090 0  ""]
+Rat[92520 446693 1 94525 428765 0  ""]
+Rat[94525 428765 0 98425 428765 0  ""]
+Rat[94525 428765 0 94525 418965 0  ""]
+Rat[94525 418965 0 98425 418965 0  ""]
+Rat[307481 216534 1 232677 334645 0  ""]
+Rat[232677 334645 0 232677 344094 0  ""]
+Rat[232677 344094 0 232677 352361 0  ""]
+Rat[232677 352361 0 232677 361810 0  ""]
+Rat[401968 476377 1 212598 312992 0  ""]
+Rat[212598 312992 0 204724 312992 0  ""]
+Rat[204724 312992 0 196850 312992 0  ""]
+Rat[196850 312992 0 188976 312992 0  ""]
+Rat[417625 293306 0 371188 81709 0  ""]
+Rat[363153 149122 0 256161 379821 0  ""]
+Rat[96457 311024 0 86614 290371 0  ""]
+Rat[86614 290371 0 77323 289685 1  ""]
+Rat[153543 49607 0 172917 49516 0  ""]
+Rat[172917 49516 0 206614 48245 0  ""]
+Rat[172917 49516 0 186573 111277 0  ""]
+Rat[206614 48245 0 302448 48245 0  ""]
+Rat[153543 49607 0 55800 58400 0  ""]
+Rat[186573 111277 0 132559 330905 0  ""]
+Rat[132559 330905 0 104725 338582 0  ""]
+Rat[132559 330905 0 205118 413385 0  ""]
+Rat[205118 413385 0 209618 441085 0  ""]
+Rat[389369 259056 0 400000 254937 0  ""]
+Rat[400000 254937 0 415117 258267 1  ""]
+Rat[356693 476377 0 329764 482519 1  ""]
+Rat[329764 482519 1 327165 464566 0  ""]
+Rat[123937 227559 0 182516 371562 0  ""]
+Rat[182516 371562 0 182516 379436 0  ""]
+Rat[138110 459843 0 337082 255535 0  ""]
+Rat[337082 255535 0 340982 255535 0  ""]
+Rat[337082 255535 0 337082 245735 0  ""]
+Rat[337082 245735 0 340982 245735 0  ""]
+Rat[459055 293306 1 471023 442912 1  ""]
+Rat[317481 216534 1 449055 293306 1  ""]
+Rat[391968 476377 1 275985 480314 1  ""]
+Rat[265985 480314 1 92520 456693 1  ""]
+Rat[112126 227559 0 382283 228345 0  ""]
+Rat[325590 455118 0 325590 416535 0  ""]
+Rat[325590 416535 0 283995 377262 0  ""]
+Rat[370472 228345 0 435276 446062 0  ""]
+Rat[423465 446062 0 149921 459843 0  ""]
+Rat[388189 415353 0 351609 392696 0  ""]
+Rat[320776 365192 0 333176 362572 0  ""]
+Rat[320776 365192 0 324609 382696 0  ""]
+Rat[324609 382696 0 351609 387696 0  ""]
+Rat[351609 387696 0 358177 392680 0  ""]
+Rat[344776 362572 0 351609 382696 0  ""]
+Rat[351609 382696 0 358177 380869 0  ""]
+Rat[358177 380869 0 358177 386846 0  ""]
+Rat[205276 206692 1 124016 279201 0  ""]
+Rat[124016 279201 0 120116 279201 0  ""]
+Rat[124016 279201 0 124016 289001 0  ""]
+Rat[124016 289001 0 120116 289001 0  ""]
+Rat[55118 425196 1 177559 362204 0  ""]
+Rat[177559 362204 0 177559 353936 0  ""]
+Rat[177559 353936 0 177559 344487 0  ""]
+Rat[177559 344487 0 177559 336220 0  ""]
+Rat[55118 415196 1 58897 250000 1  ""]
+Rat[68897 250000 1 195276 206692 1  ""]
+Rat[411739 309054 0 256161 392616 0  ""]
+Rat[256298 210629 1 256161 359350 0  ""]
+Rat[246298 210629 1 244416 194881 0  ""]
+Rat[246298 210629 1 256161 374704 0  ""]
+Rat[236298 210629 1 238582 194881 0  ""]
 Layer(1 "component")
 (
 )
@@ -3794,4 +2122,468 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+)
+NetList()
+(
+	Net("3.3VCC" "(unknown)")
+	(
+		Connect("CONN4-1")
+		Connect("R13-2")
+		Connect("U2-2")
+		Connect("U3-8")
+	)
+	Net("5VCC" "(unknown)")
+	(
+		Connect("CONN3-1")
+		Connect("R17-1")
+		Connect("R20-1")
+		Connect("R21-1")
+		Connect("R22-2")
+		Connect("U1-1")
+	)
+	Net("12VCC" "(unknown)")
+	(
+		Connect("C1-1")
+		Connect("C2-1")
+		Connect("CONN2-1")
+		Connect("R1-2")
+		Connect("R2-2")
+		Connect("R3-2")
+		Connect("R4-2")
+		Connect("R5-2")
+		Connect("R6-2")
+		Connect("R7-2")
+		Connect("R8-2")
+		Connect("R9-2")
+		Connect("R10-2")
+		Connect("R11-2")
+		Connect("R12-2")
+		Connect("R18-2")
+		Connect("R19-2")
+		Connect("S1/C1-2")
+		Connect("S1/D6-3")
+		Connect("S1/S/J1-3")
+		Connect("S1/S/J1-4")
+		Connect("S1/S/J2-3")
+		Connect("S1/S/J2-4")
+		Connect("S1/U1-3")
+		Connect("U1-3")
+	)
+	Net("GND" "(unknown)")
+	(
+		Connect("C1-2")
+		Connect("C2-2")
+		Connect("C3-1")
+		Connect("C4-1")
+		Connect("C5-1")
+		Connect("C6-1")
+		Connect("C7-1")
+		Connect("CONN5-1")
+		Connect("J100-4")
+		Connect("LED14-2")
+		Connect("LED15-2")
+		Connect("Q1-S")
+		Connect("Q2-S")
+		Connect("Q3-S")
+		Connect("Q4-S")
+		Connect("R14-1")
+		Connect("S1/C1-1")
+		Connect("S1/C2-1")
+		Connect("S1/C3-1")
+		Connect("S1/C4-2")
+		Connect("S1/C6-2")
+		Connect("S1/D3-3")
+		Connect("S1/D4-3")
+		Connect("S1/D5-3")
+		Connect("S1/D6-1")
+		Connect("S1/D7-3")
+		Connect("S1/D8-3")
+		Connect("S1/D9-3")
+		Connect("S1/J3-3")
+		Connect("S1/LED1-2")
+		Connect("S1/LED1-4")
+		Connect("S1/R3-2")
+		Connect("S1/S/J1-5")
+		Connect("S1/S/J1-6")
+		Connect("S1/S/J2-5")
+		Connect("S1/S/J2-6")
+		Connect("S1/U1-1")
+		Connect("S1/U2-8")
+		Connect("S1/U4-2")
+		Connect("S2-1")
+		Connect("U1-2")
+		Connect("U2-4")
+		Connect("U3-1")
+		Connect("U4-3")
+		Connect("U5-3")
+		Connect("U6-3")
+	)
+	Net("GT" "(unknown)")
+	(
+		Connect("S1/R2-2")
+		Connect("U2-18")
+	)
+	Net("HT" "(unknown)")
+	(
+		Connect("S1/R1-2")
+		Connect("U2-8")
+	)
+	Net("IRCon" "(unknown)")
+	(
+		Connect("R14-2")
+		Connect("U2-13")
+		Connect("U3-4")
+	)
+	Net("RECOUT" "(unknown)")
+	(
+		Connect("R16-2")
+		Connect("U4-1")
+		Connect("U5-1")
+		Connect("U6-1")
+	)
+	Net("RX_D" "(unknown)")
+	(
+		Connect("S1/U2-5")
+	)
+	Net("RXD" "(unknown)")
+	(
+		Connect("U2-16")
+	)
+	Net("S1/D_A" "(unknown)")
+	(
+		Connect("S1/D4-2")
+		Connect("S1/D7-1")
+		Connect("S1/F1-2")
+		Connect("S1/U2-6")
+		Connect("S1/U2-10")
+	)
+	Net("S1/D_Au" "(unknown)")
+	(
+		Connect("S1/F1-1")
+		Connect("S1/S/J1-7")
+		Connect("S1/S/J2-7")
+	)
+	Net("S1/D_B" "(unknown)")
+	(
+		Connect("S1/D4-1")
+		Connect("S1/D7-2")
+		Connect("S1/F2-2")
+		Connect("S1/U2-7")
+		Connect("S1/U2-11")
+	)
+	Net("S1/D_Bu" "(unknown)")
+	(
+		Connect("S1/F2-1")
+		Connect("S1/S/J1-8")
+		Connect("S1/S/J2-8")
+	)
+	Net("S1/ICSPCLK" "(unknown)")
+	(
+		Connect("S1/J3-5")
+		Connect("S1/R2-1")
+		Connect("S1/U4-3")
+	)
+	Net("S1/ICSPDAT" "(unknown)")
+	(
+		Connect("S1/J3-4")
+		Connect("S1/R1-1")
+		Connect("S1/U4-1")
+	)
+	Net("S1/nC3V3" "(unknown)")
+	(
+		Connect("S1/C6-1")
+		Connect("S1/D1-1")
+		Connect("S1/J3-2")
+		Connect("S1/U4-5")
+	)
+	Net("S1/TI_A" "(unknown)")
+	(
+		Connect("S1/D3-2")
+		Connect("S1/D9-1")
+		Connect("S1/R4-2")
+		Connect("S1/U2-2")
+	)
+	Net("S1/TI_Au" "(unknown)")
+	(
+		Connect("S1/R4-1")
+		Connect("S1/R7-1")
+		Connect("S1/S/J1-1")
+	)
+	Net("S1/TI_B" "(unknown)")
+	(
+		Connect("S1/D3-1")
+		Connect("S1/D9-2")
+		Connect("S1/R8-2")
+		Connect("S1/U2-1")
+	)
+	Net("S1/TI_Bu" "(unknown)")
+	(
+		Connect("S1/R7-2")
+		Connect("S1/R8-1")
+		Connect("S1/S/J1-2")
+	)
+	Net("S1/TO_A" "(unknown)")
+	(
+		Connect("S1/D5-2")
+		Connect("S1/D8-1")
+		Connect("S1/F3-2")
+		Connect("S1/U2-14")
+	)
+	Net("S1/TO_Au" "(unknown)")
+	(
+		Connect("S1/F3-1")
+		Connect("S1/S/J2-1")
+	)
+	Net("S1/TO_B" "(unknown)")
+	(
+		Connect("S1/D5-1")
+		Connect("S1/D8-2")
+		Connect("S1/F4-2")
+		Connect("S1/U2-13")
+	)
+	Net("S1/TO_Bu" "(unknown)")
+	(
+		Connect("S1/F4-1")
+		Connect("S1/S/J2-2")
+	)
+	Net("S1/unnamed_net9" "(unknown)")
+	(
+		Connect("S1/U2-15")
+		Connect("S1/U4-4")
+	)
+	Net("S1/unnamed_net15" "(unknown)")
+	(
+		Connect("S1/D2-2")
+		Connect("S1/Q1-1")
+		Connect("S1/U2-3")
+	)
+	Net("S1/unnamed_net16" "(unknown)")
+	(
+		Connect("S1/LED1-1")
+		Connect("S1/R5-2")
+	)
+	Net("S1/unnamed_net17" "(unknown)")
+	(
+		Connect("S1/LED1-3")
+		Connect("S1/R6-2")
+	)
+	Net("S1/unnamed_net18" "(unknown)")
+	(
+		Connect("S1/Q1-3")
+		Connect("S1/R6-1")
+	)
+	Net("S1/Vpp" "(unknown)")
+	(
+		Connect("S1/D2-1")
+		Connect("S1/J3-1")
+		Connect("S1/R3-1")
+		Connect("S1/U4-6")
+	)
+	Net("STLED" "(unknown)")
+	(
+		Connect("Q4-G")
+		Connect("U2-12")
+	)
+	Net("ToGate" "(unknown)")
+	(
+		Connect("Q1-G")
+		Connect("Q2-G")
+		Connect("Q3-G")
+		Connect("U3-3")
+	)
+	Net("TX_D" "(unknown)")
+	(
+		Connect("S1/U2-9")
+	)
+	Net("TX_EN" "(unknown)")
+	(
+		Connect("S1/U2-12")
+		Connect("U2-17")
+	)
+	Net("TXD" "(unknown)")
+	(
+		Connect("U2-15")
+	)
+	Net("unnamed_net1" "(unknown)")
+	(
+		Connect("LED7-2")
+		Connect("Q1-D")
+	)
+	Net("unnamed_net2" "(unknown)")
+	(
+		Connect("LED8-2")
+		Connect("Q2-D")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("LED1-1")
+		Connect("R1-1")
+		Connect("R2-1")
+		Connect("R3-1")
+		Connect("R4-1")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("LED2-1")
+		Connect("R5-1")
+		Connect("R6-1")
+		Connect("R7-1")
+		Connect("R8-1")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("LED14-1")
+		Connect("R22-1")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("R16-1")
+		Connect("U2-9")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
+		Connect("C7-2")
+		Connect("R21-2")
+		Connect("U6-2")
+	)
+	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("S1/C2-2")
+		Connect("S1/C3-2")
+		Connect("S1/C4-1")
+		Connect("S1/D1-2")
+		Connect("S1/Q1-2")
+		Connect("S1/R5-1")
+		Connect("S1/U1-2")
+		Connect("S1/U1-4")
+		Connect("S1/U2-4")
+		Connect("S1/U2-16")
+	)
+	Net("unnamed_net19" "(unknown)")
+	(
+		Connect("C6-2")
+		Connect("R20-2")
+		Connect("U5-2")
+	)
+	Net("unnamed_net20" "(unknown)")
+	(
+		Connect("C5-2")
+		Connect("R17-2")
+		Connect("U4-2")
+	)
+	Net("unnamed_net21" "(unknown)")
+	(
+		Connect("LED10-1")
+		Connect("R18-1")
+		Connect("R19-1")
+	)
+	Net("unnamed_net22" "(unknown)")
+	(
+		Connect("LED13-2")
+		Connect("Q4-D")
+	)
+	Net("unnamed_net23" "(unknown)")
+	(
+		Connect("LED4-2")
+		Connect("LED7-1")
+	)
+	Net("unnamed_net24" "(unknown)")
+	(
+		Connect("LED1-2")
+		Connect("LED4-1")
+	)
+	Net("unnamed_net25" "(unknown)")
+	(
+		Connect("LED2-2")
+		Connect("LED5-1")
+	)
+	Net("unnamed_net26" "(unknown)")
+	(
+		Connect("LED5-2")
+		Connect("LED8-1")
+	)
+	Net("unnamed_net27" "(unknown)")
+	(
+		Connect("LED10-2")
+		Connect("LED11-1")
+	)
+	Net("unnamed_net28" "(unknown)")
+	(
+		Connect("S2-2")
+		Connect("U2-21")
+	)
+	Net("unnamed_net29" "(unknown)")
+	(
+		Connect("LED11-2")
+		Connect("LED12-1")
+	)
+	Net("unnamed_net30" "(unknown)")
+	(
+		Connect("LED12-2")
+		Connect("LED13-1")
+	)
+	Net("unnamed_net31" "(unknown)")
+	(
+		Connect("C3-2")
+		Connect("U3-5")
+	)
+	Net("unnamed_net32" "(unknown)")
+	(
+		Connect("C4-2")
+		Connect("D1-2")
+		Connect("R15-1")
+		Connect("U3-2")
+		Connect("U3-6")
+	)
+	Net("unnamed_net33" "(unknown)")
+	(
+		Connect("D1-1")
+		Connect("R13-1")
+		Connect("R15-2")
+		Connect("U3-7")
+	)
+	Net("unnamed_net34" "(unknown)")
+	(
+		Connect("LED9-2")
+		Connect("Q3-D")
+	)
+	Net("unnamed_net35" "(unknown)")
+	(
+		Connect("LED3-1")
+		Connect("R9-1")
+		Connect("R10-1")
+		Connect("R11-1")
+		Connect("R12-1")
+	)
+	Net("unnamed_net36" "(unknown)")
+	(
+		Connect("LED3-2")
+		Connect("LED6-1")
+	)
+	Net("unnamed_net37" "(unknown)")
+	(
+		Connect("LED6-2")
+		Connect("LED9-1")
+	)
+	Net("unnamed_net38" "(unknown)")
+	(
+		Connect("LED15-1")
+		Connect("U2-14")
+	)
+	Net("unnamed_net39" "(unknown)")
+	(
+		Connect("J100-3")
+		Connect("U2-1")
+	)
+	Net("unnamed_net40" "(unknown)")
+	(
+		Connect("J100-2")
+		Connect("R103-1")
+		Connect("U2-7")
+	)
+	Net("Vcc" "(unknown)")
+	(
+		Connect("J100-1")
+		Connect("R103-2")
+	)
 )
