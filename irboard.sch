@@ -959,9 +959,11 @@ C 60700 46500 1 0 0 led-1.sym
 T 61500 47100 5 10 0 0 0 0 1
 device=LED
 T 61500 46900 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED14
 T 61500 47300 5 10 0 0 0 0 1
 symversion=0.1
+T 60700 46500 5 10 0 0 0 0 1
+footprint=sr-led-red-0603
 }
 C 61900 46600 1 90 0 gnd-1.sym
 C 55800 44200 1 0 0 MSP430F2122.sym
