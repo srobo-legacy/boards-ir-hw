@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Fri Aug  6 20:37:18 2010
+# date:    Fri Aug  6 20:40:44 2010
 # user:    alex (Alex Forward,,,)
 # host:    alex-laptop
 
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 600000 500000]
 
 Grid[393.700775 0 0 0]
-Cursor[0 0 0.000000]
+Cursor[0 500000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
@@ -3036,6 +3036,10 @@ Layer(12 "silk")
 	Line[171260 360237 172047 361024 984 1574 "clearline"]
 	Line[192126 383071 190551 381496 984 1574 "clearline"]
 	Line[137795 356299 124409 369685 984 1574 "clearline"]
+	Text[35827 271259 0 144 "12V" ""]
+	Text[74016 302756 0 144 "5V" ""]
+	Text[103543 268110 0 144 "3.3V" ""]
+	Text[35433 302362 0 144 "GND" ""]
 )
 NetList()
 (
