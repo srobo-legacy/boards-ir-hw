@@ -6,7 +6,7 @@ device=NMOS_TRANSISTOR
 T 75500 51700 5 10 1 1 0 0 1
 refdes=Q1
 T 73100 51400 5 10 1 1 0 0 1
-value=sr-fet-RTQ020N03
+value=sr-fet-n-rtq020n03
 T 74800 51100 5 10 0 0 0 0 1
 footprint=SOT262FET
 }
@@ -23,7 +23,7 @@ device=NMOS_TRANSISTOR
 T 77100 51700 5 10 1 1 0 0 1
 refdes=Q2
 T 73100 51200 5 10 1 1 0 0 1
-value=sr-fet-RTQ020N03
+value=sr-fet-n-rtq020n03
 T 76400 51100 5 10 0 0 0 0 1
 footprint=SOT262FET
 }
@@ -344,12 +344,12 @@ netname=HT
 N 61100 46400 60400 46400 4
 {
 T 60400 46400 5 10 1 1 0 0 1
-netname=TXD
+netname=TX_D
 }
 N 61100 46100 60400 46100 4
 {
 T 60400 46100 5 10 1 1 0 0 1
-netname=RXD
+netname=RX_D
 }
 N 61100 45500 60400 45500 4
 {
@@ -543,7 +543,7 @@ device=NMOS_TRANSISTOR
 T 75500 42800 5 10 1 1 0 0 1
 refdes=Q4
 T 73200 42900 5 10 1 1 0 0 1
-value=sr-fet-RTQ020N03
+value=sr-fet-n-rtq020n03
 T 74900 42600 5 10 0 0 0 0 1
 footprint=SOT262FET
 }
@@ -556,7 +556,7 @@ refdes=LED7
 T 75900 52400 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 53700 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 75100 53200 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -569,7 +569,7 @@ refdes=LED4
 T 75900 53700 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 54100 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 75100 54500 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -582,7 +582,7 @@ refdes=LED5
 T 77500 53700 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 53900 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 76700 54500 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -595,7 +595,7 @@ refdes=LED8
 T 77500 52400 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 53500 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 76700 53200 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -608,7 +608,7 @@ refdes=LED1
 T 75900 54800 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 54500 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 75100 55600 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -621,7 +621,7 @@ refdes=LED2
 T 77500 54800 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 54300 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 76700 55600 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -649,7 +649,7 @@ symversion=0.1
 T 76000 46500 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 47000 5 10 0 0 0 0 1
-footprint=KPA
+footprint=led-smt
 }
 C 53800 49300 1 0 0 switch-pushbutton-no-1.sym
 {
@@ -675,18 +675,18 @@ footprint=sr_0603
 T 65400 55600 5 10 1 1 180 0 1
 description=Pull Down Resistor
 }
-C 75200 46100 1 270 0 led-1.sym
+C 75200 46200 1 270 0 led-1.sym
 {
-T 75800 45300 5 10 0 0 270 0 1
+T 75800 45400 5 10 0 0 270 0 1
 device=LED
-T 75600 45300 5 10 1 1 270 0 1
+T 75600 45400 5 10 1 1 270 0 1
 refdes=LED11
-T 76000 45300 5 10 0 0 270 0 1
+T 76000 45400 5 10 0 0 270 0 1
 symversion=0.1
-T 76000 45600 5 10 1 1 0 0 1
+T 76000 45700 5 10 1 1 0 0 1
 value=sr-led-red-KPA
-T 75200 46100 5 10 0 0 0 0 1
-footprint=KPA
+T 75200 46200 5 10 0 0 0 0 1
+footprint=led-smt
 }
 C 75200 45200 1 270 0 led-1.sym
 {
@@ -699,7 +699,7 @@ symversion=0.1
 T 76000 44600 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 45200 5 10 0 0 0 0 1
-footprint=KPA
+footprint=led-smt
 }
 C 75200 44300 1 270 0 led-1.sym
 {
@@ -712,7 +712,7 @@ symversion=0.1
 T 75900 43900 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 44300 5 10 0 0 0 0 1
-footprint=KPA
+footprint=led-smt
 }
 C 66200 52700 1 0 0 lm555-1.sym
 {
@@ -831,7 +831,7 @@ device=NMOS_TRANSISTOR
 T 79200 51700 5 10 1 1 0 0 1
 refdes=Q3
 T 73100 51000 5 10 1 1 0 0 1
-value=sr-fet-RTQ020N03
+value=sr-fet-n-rtq020n03
 T 78500 51100 5 10 0 0 0 0 1
 footprint=SOT262FET
 }
@@ -895,7 +895,7 @@ refdes=LED6
 T 79600 53700 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 53100 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 78800 54500 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -908,7 +908,7 @@ refdes=LED9
 T 79600 52400 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 52900 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 78800 53200 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -921,7 +921,7 @@ refdes=LED3
 T 79600 54800 5 10 0 0 270 0 1
 symversion=0.1
 T 73700 53300 5 10 1 1 0 0 1
-value=sr-ic-tsop2236
+value=sr-led-ir-t1
 T 78800 55600 5 10 0 1 0 0 1
 footprint=LED5
 }
@@ -1057,3 +1057,5 @@ value=sr-c-22u-1210
 T 56800 55000 5 10 0 0 0 0 1
 footprint=1210
 }
+N 75400 46200 75400 46100 4
+N 75400 45300 75400 45200 4
