@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Wed Aug 11 18:28:29 2010
+# date:    Wed Aug 11 21:26:16 2010
 # user:    alex (Alex Forward,,,)
 # host:    alex-laptop
 
@@ -2170,7 +2170,7 @@ Layer(1 "component")
 	Line[201000 440500 224500 440500 984 1574 "clearline"]
 	Line[224500 440500 255500 409500 984 1574 "clearline"]
 	Line[255500 409500 255500 279000 984 1574 "clearline"]
-	Line[255500 279000 243500 267000 984 1574 "clearline"]
+	Line[255500 279000 243500 267000 984 1574 "found,clearline"]
 	Line[236614 259449 233464 259449 984 1574 "clearline"]
 	Line[233464 259449 225984 266929 984 1574 "clearline"]
 	Line[225984 266929 225984 270079 984 1574 "clearline"]
