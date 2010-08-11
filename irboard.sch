@@ -649,7 +649,7 @@ symversion=0.1
 T 76000 46500 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 47000 5 10 0 0 0 0 1
-footprint=led-smt
+footprint=sr_led-smt
 }
 C 53800 49300 1 0 0 switch-pushbutton-no-1.sym
 {
@@ -686,7 +686,7 @@ symversion=0.1
 T 76000 45700 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 46200 5 10 0 0 0 0 1
-footprint=led-smt
+footprint=sr_led-smt
 }
 C 75200 45200 1 270 0 led-1.sym
 {
@@ -699,7 +699,7 @@ symversion=0.1
 T 76000 44600 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 45200 5 10 0 0 0 0 1
-footprint=led-smt
+footprint=sr_led-smt
 }
 C 75200 44300 1 270 0 led-1.sym
 {
@@ -712,7 +712,7 @@ symversion=0.1
 T 75900 43900 5 10 1 1 0 0 1
 value=sr-led-red-KPA
 T 75200 44300 5 10 0 0 0 0 1
-footprint=led-smt
+footprint=sr_led-smt
 }
 C 66200 52700 1 0 0 lm555-1.sym
 {
