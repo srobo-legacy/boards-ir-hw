@@ -247,7 +247,7 @@ device=CONNECTOR_1
 T 50200 49050 5 10 0 0 180 0 1
 footprint=SIP1
 T 48000 48700 5 10 1 1 0 0 1
-value=sr-con-2211S03G
+value=sr-cn-header1
 T 47100 49000 5 10 1 1 0 0 1
 description=Power connectors for debug
 }
@@ -259,6 +259,8 @@ T 69017 44660 5 10 1 1 0 2 1
 refdes=U6
 T 68700 44500 5 10 0 0 0 0 1
 footprint=sr_rx.fp
+T 70300 47500 5 10 1 1 0 0 1
+value=sr-ic-TS555CD
 }
 C 49800 54500 1 0 0 interconnect.sym
 {
@@ -266,6 +268,8 @@ T 51000 57220 5 10 1 1 0 0 1
 refdes=S1
 T 49900 57995 5 10 0 0 0 0 1
 device=none
+T 51500 57100 5 10 1 1 0 0 1
+value=sr-nothing
 }
 C 50500 49000 1 180 0 connector1-2.sym
 {
@@ -276,7 +280,7 @@ device=CONNECTOR_1
 T 50200 47950 5 10 0 0 180 0 1
 footprint=SIP1
 T 48000 48500 5 10 1 1 0 0 1
-value=sr-con-2211S03G
+value=sr-cn-header1
 }
 C 50500 47900 1 180 0 connector1-2.sym
 {
@@ -287,7 +291,7 @@ device=CONNECTOR_1
 T 50200 46850 5 10 0 0 180 0 1
 footprint=SIP1
 T 48000 48300 5 10 1 1 0 0 1
-value=sr-con-2211S03G
+value=sr-cn-header1
 }
 C 50500 46800 1 180 0 connector1-2.sym
 {
@@ -298,7 +302,7 @@ device=CONNECTOR_1
 T 50200 45750 5 10 0 0 180 0 1
 footprint=SIP1
 T 48000 48100 5 10 1 1 0 0 1
-value=sr-con-2211S03G
+value=sr-cn-header1
 }
 N 50100 57500 50100 57800 4
 {
@@ -416,6 +420,8 @@ T 69017 46660 5 10 1 1 0 2 1
 refdes=U5
 T 68700 46500 5 10 0 0 0 0 1
 footprint=sr_rx
+T 70300 47800 5 10 1 1 0 0 1
+value=sr-ic-TS555CD
 }
 C 67400 47100 1 0 0 resistor-2.sym
 {
@@ -465,6 +471,8 @@ T 67800 50000 5 10 1 1 0 0 1
 description=IR Receivers
 T 68800 48500 5 10 0 0 0 0 1
 footprint=sr_rx
+T 70300 48100 5 10 1 1 0 0 1
+value=sr-ic-TS555CD
 }
 C 67500 49100 1 0 0 resistor-2.sym
 {
