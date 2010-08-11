@@ -394,7 +394,7 @@ refdes=C7
 T 67600 44500 5 10 0 0 90 0 1
 symversion=0.1
 T 66900 44700 5 10 1 1 0 0 1
-value=sr-c-2u2
+value=sr-c-2u2-0805
 T 68500 44300 5 10 0 0 0 0 1
 footprint=0805
 }
@@ -443,7 +443,7 @@ refdes=C6
 T 67600 46500 5 10 0 0 90 0 1
 symversion=0.1
 T 66900 46700 5 10 1 1 0 0 1
-value=sr-c-2u2
+value=sr-c-2u2-0805
 T 68500 46300 5 10 0 0 0 0 1
 footprint=0805
 }
@@ -494,7 +494,7 @@ refdes=C5
 T 67700 48500 5 10 0 0 90 0 1
 symversion=0.1
 T 67000 48700 5 10 1 1 0 0 1
-value=sr-c-2u2
+value=sr-c-2u2-0805
 T 68600 48300 5 10 0 0 0 0 1
 footprint=0805
 }
@@ -655,7 +655,7 @@ refdes=LED10
 T 76000 46200 5 10 0 0 270 0 1
 symversion=0.1
 T 76000 46500 5 10 1 1 0 0 1
-value=sr-led-red-KPA
+value=sr-led-red-smt-led
 T 75200 47000 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -667,6 +667,8 @@ T 54200 49900 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
 T 53800 49300 5 10 0 0 0 0 1
 footprint=SW
+T 53800 49100 5 10 1 1 0 0 1
+value=sr-sw-button
 }
 N 54800 49300 55900 49300 4
 C 53500 49400 1 270 0 gnd-1.sym
@@ -692,7 +694,7 @@ refdes=LED11
 T 76000 45400 5 10 0 0 270 0 1
 symversion=0.1
 T 76000 45700 5 10 1 1 0 0 1
-value=sr-led-red-KPA
+value=sr-led-red-smt-led
 T 75200 46200 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -705,7 +707,7 @@ refdes=LED12
 T 76000 44400 5 10 0 0 270 0 1
 symversion=0.1
 T 76000 44600 5 10 1 1 0 0 1
-value=sr-led-red-KPA
+value=sr-led-red-smt-led
 T 75200 45200 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -718,7 +720,7 @@ refdes=LED13
 T 76000 43500 5 10 0 0 270 0 1
 symversion=0.1
 T 75900 43900 5 10 1 1 0 0 1
-value=sr-led-red-KPA
+value=sr-led-red-smt-led
 T 75200 44300 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -944,6 +946,8 @@ T 61900 47300 5 10 0 0 0 0 1
 symversion=0.1
 T 61100 46500 5 10 0 0 0 0 1
 footprint=sr_0603_led
+T 61400 46300 5 10 1 1 0 0 1
+value=sr-led-red-0603
 }
 C 62300 46600 1 90 0 gnd-1.sym
 C 55800 44200 1 0 0 MSP430F2122.sym
@@ -954,6 +958,8 @@ T 60050 52250 5 10 1 1 0 6 1
 refdes=U2
 T 55800 44200 5 10 0 0 0 0 1
 footprint=TSSOP28
+T 55700 44100 5 10 1 1 0 0 1
+value=sr-ic-msp430f2122
 }
 N 75900 48100 74900 48100 4
 N 75400 47000 75400 48100 4
