@@ -265,7 +265,7 @@ value=sr-ic-TS555CD
 C 49800 54500 1 0 0 interconnect.sym
 {
 T 51000 57220 5 10 1 1 0 0 1
-refdes=S1
+refdes=S
 T 49900 57995 5 10 0 0 0 0 1
 device=none
 T 51500 57100 5 10 1 1 0 0 1
