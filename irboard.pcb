@@ -1134,7 +1134,7 @@ Element["onsolder" "sr_0603" "S/R8" "sr-r-330" 98819 355512 -8268 -2362 0 100 "a
 
 	)
 
-Element["" "sr_rx" "U4" "sr-ic-TS555CD" 155512 432479 -12991 1182 0 100 ""]
+Element["" "sr_rx" "U4" "sr-ic-tsop2236" 155512 432479 -12991 1182 0 100 ""]
 (
 	Pin[20000 0 7874 1968 8661 4331 "" "3" "edge2,thermal(2X,3X)"]
 	Pin[10000 0 7874 1968 8661 4331 "" "2" "edge2"]
@@ -1158,7 +1158,7 @@ Element["" "SIP1" "CONN4" "sr-cn-header1" 96850 265749 6694 -2758 0 100 ""]
 
 	)
 
-Element["" "sr_rx.fp" "U6" "sr-ic-TS555CD" 78346 238976 -15354 -14567 0 100 ""]
+Element["" "sr_rx.fp" "U6" "sr-ic-tsop2236" 78346 238976 -15354 -14567 0 100 ""]
 (
 	Pin[-14143 14143 7874 1968 8661 4331 "" "3" "thermal(2X,3X)"]
 	Pin[-7072 7072 7874 1968 8661 4331 "" "2" ""]
@@ -1563,7 +1563,7 @@ Element["" "1206" "R10" "sr-r-22" 174408 344883 -3148 -21261 0 100 ""]
 
 	)
 
-Element["" "sr_rx" "U5" "sr-ic-TS555CD" 252166 253347 -7843 -31466 0 100 ""]
+Element["" "sr_rx" "U5" "sr-ic-tsop2236" 252166 253347 -7843 -31466 0 100 ""]
 (
 	Pin[-14142 -14142 7874 1968 8661 4331 "" "3" "thermal(2X,3X)"]
 	Pin[-7071 -7071 7874 1968 8661 4331 "" "2" ""]
@@ -1971,7 +1971,7 @@ Element["onsolder" "SOT23" "S/D3" "sr-d-mmbz5v6al" 118110 354724 -18109 17324 0 
 
 	)
 
-Element["" "sr_led-smt" "LED10" "sr-led-red-smt-led" 275393 432283 -7963 -38309 1 100 ""]
+Element["" "sr_led-smt" "LED10" "sr-led-red-smt" 275393 432283 -7963 -38309 1 100 ""]
 (
 	Pad[-279 278 0 0 5906 1968 6693 "2" "2" "square"]
 	Pad[-10022 10021 -9744 9744 5906 1968 6693 "1" "1" "square,edge2"]
@@ -1984,7 +1984,7 @@ Element["" "sr_led-smt" "LED10" "sr-led-red-smt-led" 275393 432283 -7963 -38309 
 
 	)
 
-Element["" "sr_led-smt" "LED12" "sr-led-red-smt-led" 43308 236614 16839 -103 3 100 ""]
+Element["" "sr_led-smt" "LED12" "sr-led-red-smt" 43308 236614 16839 -103 3 100 ""]
 (
 	Pad[0 0 278 -278 5906 1968 6693 "2" "2" "square,edge2"]
 	Pad[9744 -9744 10022 -10021 5906 1968 6693 "1" "1" "square"]
@@ -1997,7 +1997,7 @@ Element["" "sr_led-smt" "LED12" "sr-led-red-smt-led" 43308 236614 16839 -103 3 1
 
 	)
 
-Element["" "sr_led-smt" "LED13" "sr-led-red-smt-led" 52559 442520 2225 -16336 0 100 ""]
+Element["" "sr_led-smt" "LED13" "sr-led-red-smt" 52559 442520 2225 -16336 0 100 ""]
 (
 	Pad[-279 -279 0 0 5906 1968 6693 "2" "2" "square,edge2"]
 	Pad[-10022 -10022 -9744 -9744 5906 1968 6693 "1" "1" "square"]
@@ -2010,7 +2010,7 @@ Element["" "sr_led-smt" "LED13" "sr-led-red-smt-led" 52559 442520 2225 -16336 0 
 
 	)
 
-Element["" "sr_led-smt" "LED11" "sr-led-red-smt-led" 265355 224999 -22244 21852 2 100 ""]
+Element["" "sr_led-smt" "LED11" "sr-led-red-smt" 265355 224999 -22244 21852 2 100 ""]
 (
 	Pad[0 0 279 278 5906 1968 6693 "2" "2" "square"]
 	Pad[9744 9743 10022 10021 5906 1968 6693 "1" "1" "square,edge2"]
