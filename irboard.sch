@@ -260,7 +260,7 @@ refdes=U6
 T 68700 44500 5 10 0 0 0 0 1
 footprint=sr_rx.fp
 T 70300 47500 5 10 1 1 0 0 1
-value=sr-ic-TS555CD
+value=sr-ic-tsop2236
 }
 C 49800 54500 1 0 0 interconnect.sym
 {
@@ -421,7 +421,7 @@ refdes=U5
 T 68700 46500 5 10 0 0 0 0 1
 footprint=sr_rx
 T 70300 47800 5 10 1 1 0 0 1
-value=sr-ic-TS555CD
+value=sr-ic-tsop2236
 }
 C 67400 47100 1 0 0 resistor-2.sym
 {
@@ -472,7 +472,7 @@ description=IR Receivers
 T 68800 48500 5 10 0 0 0 0 1
 footprint=sr_rx
 T 70300 48100 5 10 1 1 0 0 1
-value=sr-ic-TS555CD
+value=sr-ic-tsop2236
 }
 C 67500 49100 1 0 0 resistor-2.sym
 {
@@ -655,7 +655,7 @@ refdes=LED10
 T 76000 46200 5 10 0 0 270 0 1
 symversion=0.1
 T 76000 46500 5 10 1 1 0 0 1
-value=sr-led-red-smt-led
+value=sr-led-red-smt
 T 75200 47000 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -694,7 +694,7 @@ refdes=LED11
 T 76000 45400 5 10 0 0 270 0 1
 symversion=0.1
 T 76000 45700 5 10 1 1 0 0 1
-value=sr-led-red-smt-led
+value=sr-led-red-smt
 T 75200 46200 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -707,7 +707,7 @@ refdes=LED12
 T 76000 44400 5 10 0 0 270 0 1
 symversion=0.1
 T 76000 44600 5 10 1 1 0 0 1
-value=sr-led-red-smt-led
+value=sr-led-red-smt
 T 75200 45200 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
@@ -720,7 +720,7 @@ refdes=LED13
 T 76000 43500 5 10 0 0 270 0 1
 symversion=0.1
 T 75900 43900 5 10 1 1 0 0 1
-value=sr-led-red-smt-led
+value=sr-led-red-smt
 T 75200 44300 5 10 0 0 0 0 1
 footprint=sr_led-smt
 }
