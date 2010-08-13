@@ -258,7 +258,7 @@ device=IR_RECV
 T 69017 44660 5 10 1 1 0 2 1
 refdes=U6
 T 68700 44500 5 10 0 0 0 0 1
-footprint=sr_rx.fp
+footprint=sr_ir_rx-through-hole
 T 70300 47500 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 }
@@ -419,7 +419,7 @@ device=IR_RECV
 T 69017 46660 5 10 1 1 0 2 1
 refdes=U5
 T 68700 46500 5 10 0 0 0 0 1
-footprint=sr_rx
+footprint=sr_ir_rx-through-hole
 T 70300 47800 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 }
@@ -470,7 +470,7 @@ refdes=U4
 T 67800 50000 5 10 1 1 0 0 1
 description=IR Receivers
 T 68800 48500 5 10 0 0 0 0 1
-footprint=sr_rx
+footprint=sr_ir_rx-through-hole
 T 70300 48100 5 10 1 1 0 0 1
 value=sr-ic-tsop2236
 }
@@ -666,7 +666,7 @@ refdes=S2
 T 54200 49900 5 10 0 0 0 0 1
 device=SWITCH_PUSHBUTTON_NO
 T 53800 49300 5 10 0 0 0 0 1
-footprint=SW
+footprint=pbswitch-smt
 T 53800 49100 5 10 1 1 0 0 1
 value=sr-sw-button
 }
