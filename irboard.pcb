@@ -1,12 +1,12 @@
 # release: pcb 20100929
-# date:    Mon Oct 18 20:50:40 2010
+# date:    Mon Oct 18 20:59:51 2010
 # user:    alex (Alex Forward,,,)
 # host:    alex-laptop
 
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20100606]
 
-PCB["" 251969 232283]
+PCB["" 253937 234252]
 
 Grid[196.850388 0 0 1]
 Cursor[0 500000 0.000000]
